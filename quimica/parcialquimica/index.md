@@ -19,7 +19,7 @@ title: Base teórica para el parcial de química
 
 <script>
     function updateLastModified() {
-        const lastModifiedDate = new Date('2024-07-18T15:49:00'); // Fecha y hora de la última actualización
+        const lastModifiedDate = new Date('2024-07-18T18:48:00'); // Fecha y hora de la última actualización
         const now = new Date();
         const diffInMs = now - lastModifiedDate;
         
