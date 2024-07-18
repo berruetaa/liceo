@@ -1,0 +1,33 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/ico/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/ico/site.webmanifest' | relative_url }}">
+    <!-- Otros estilos, scripts, meta tags comunes -->
+    <!-- Puedes agregar estilos CSS adicionales, scripts JavaScript comunes, meta tags, etc. -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.berrueta.xyz">Página principal</a></li>
+            <li><a href="/">Liceo</a></li>
+            <li><a href="/quimica">Química</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Bienvenidos a Liceo</h1>
+        <p>Explora recursos.</p>
+        <div class="link-wrapper">
+            <a class="button" href="/quimica">Ir a Química</a>
+        </div>
+    </div>
+    {{ content }}
+</body>
+</html>
