@@ -71,6 +71,32 @@ p {
     color: #555;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-height: 50px; /* Ajusta el tamaño según sea necesario */
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black; /* Cambia según el diseño */
+}
+
 nav {
     width: 100%;
     background: #007BFF;
