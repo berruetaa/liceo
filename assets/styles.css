@@ -54,6 +54,11 @@ p {
     color: #555;
 }
 
+.smalltext {
+    font-size: 0.7em;
+    color: #555;
+}
+
 .link-wrapper {
     display: flex;
     justify-content: center;
