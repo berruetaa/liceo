@@ -11,12 +11,6 @@
             color: #333;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            transition: background-color 0.3s, color 0.3s;
         }
         .container {
             text-align: center;
@@ -24,7 +18,7 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             border-radius: 8px;
-            transition: background 0.3s, box-shadow 0.3s;
+            margin: 20px;
         }
         h1 {
             color: #007BFF;
@@ -62,6 +56,29 @@
             font-size: small;
             margin-left: auto;
         }
+        nav {
+            width: 100%;
+            background: #007BFF;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #121212;
@@ -83,6 +100,12 @@
             .update-info {
                 color: #aaa;
             }
+            nav {
+                background: #333;
+            }
+            nav ul li a {
+                color: #90caf9;
+            }
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png">
@@ -91,6 +114,15 @@
     <link rel="manifest" href="/assets/ico/site.webmanifest">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quimica.html">Química</a></li>
+            <li><a href="fisica.html">Física</a></li>
+            <li><a href="matematicas.html">Matemáticas</a></li>
+            <li><a href="liceo.html">Liceo</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <h1>Base teórica para el parcial de química</h1>
         <div class="link-wrapper">
