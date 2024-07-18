@@ -16,7 +16,7 @@ title: Base teórica para el parcial de química
         <br>
         <a class="button" href="main.pdf" download="main.pdf">Descargar PDF</a>
         <div class="update-info" id="update-info">
-            Última modificación: 18/7/2024 a las 12:57
+            Última modificación: 18/7/2024 a las 15:49
         </div>
         <div class="pdf-viewer">
             <embed src="main.pdf" width="100%" height="100%" type="application/pdf">
