@@ -106,15 +106,24 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
 @media (max-width: 768px) {
     nav ul {
         display: none; /* Oculta el menú desplegable por defecto */
         flex-direction: column; /* Alinea los elementos en columna */
         position: absolute;
-        top: 100%; /* Ajusta la posición según sea necesario */
+        top: 60px; /* Ajusta la posición según sea necesario */
         left: 0;
         background-color: #007BFF;
         width: 100%;
+        z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
     }
 
     nav ul.active {
@@ -131,5 +140,9 @@ nav ul li a:hover {
         padding: 10px 20px;
         display: block;
         text-decoration: none;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
