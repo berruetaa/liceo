@@ -54,11 +54,6 @@ p {
     color: #555;
 }
 
-.smalltext {
-    font-size: 0.7em;
-    color: #555;
-}
-
 .link-wrapper {
     display: flex;
     justify-content: center;
@@ -69,6 +64,11 @@ p {
 .link-wrapper span {
     font-size: small;
     margin-left: auto;
+}
+
+.smalltext {
+    font-size: 0.7em;
+    color: #555;
 }
 
 nav {
