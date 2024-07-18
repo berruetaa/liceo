@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .pdf-viewer {
+            margin-top: 20px;
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd;
+        }
+        .update-info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #e4e4e4;
+            }
+            .container {
+                background: #1e1e1e;
+                box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+            }
+            a {
+                color: #90caf9;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .pdf-viewer {
+                border: 1px solid #444;
+            }
+            .update-info {
+                color: #aaa;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Documento PDF</h1>
+        <p>Puedes ver o descargar el documento PDF haciendo clic en los enlaces a continuación:</p>
+        <a href="main.pdf" target="_blank">Ver en otra pestaña</a> | 
+        <a href="main.pdf" download="main.pdf">Descargar PDF</a>
+	<div class="update-info" id="update-info">
+            Última actualización: 
+        </div>
+        <div class="pdf-viewer">
+            <embed src="main.pdf" width="100%" height="100%" type="application/pdf">
+        </div>
+    </div>
+    <script>
+        document.getElementById('update-info').innerText += new Date(document.lastModified).toLocaleString();
+    </script>
+</body>
+</html>
