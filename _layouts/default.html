@@ -14,12 +14,30 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="https://www.berrueta.xyz">Página principal</a></li>
-            <li><a href="/">Liceo</a></li>
-            <li><a href="/quimica">Química</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="menu">
+                <li><a href="https://www.berrueta.xyz">Página principal</a></li>
+                <li><a href="/">Liceo</a></li>
+                <li><a href="/quimica">Química</a></li>
+            </ul>
+        </div>
     </nav>
     {{ content }}
+
+    <script>
+        // JavaScript para controlar el menú desplegable
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
