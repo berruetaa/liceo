@@ -2,8 +2,7 @@
 layout: default
 title: Página Principal
 ---
-
-    <div class="container">
+  <div class="container">
         <h1>Bienvenidos a Liceo</h1>
         <p>Explora recursos.</p>
         <div class="link-wrapper">
