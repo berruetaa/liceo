@@ -27,13 +27,20 @@
             font-size: 1.2em;
             margin-bottom: 20px;
         }
-        a {
-            color: #007BFF;
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
             text-decoration: none;
-            margin: 0 10px;
+            cursor: pointer;
         }
-        a:hover {
-            text-decoration: underline;
+        .button:hover {
+            background-color: #0056b3;
         }
         .pdf-viewer {
             margin-top: 20px;
@@ -88,11 +95,11 @@
                 background: #1e1e1e;
                 box-shadow: 0 4px 8px rgba(255,255,255,0.1);
             }
-            a {
-                color: #90caf9;
+            a.button {
+                background-color: #90caf9;
             }
-            a:hover {
-                text-decoration: underline;
+            a.button:hover {
+                background-color: #64b5f6;
             }
             .pdf-viewer {
                 border: 1px solid #444;
@@ -126,13 +133,13 @@
     <div class="container">
         <h1>Base teórica para el parcial de química</h1>
         <div class="link-wrapper">
-            <a href="main.pdf" target="_blank">Ver en otra pestaña</a>
+            <a class="button" href="main.pdf" target="_blank">Ver en otra pestaña</a>
             <div class="link-wrap">
             <span>(recomendable si la última modificación es reciente)</span>
             </div>
         </div>
         <br>
-        <a href="main.pdf" download="main.pdf">Descargar PDF</a>
+        <a class="button" href="main.pdf" download="main.pdf">Descargar PDF</a>
         <div class="update-info" id="update-info">
             Última actualización: 17/7/2024 a las 22:10
         </div>
