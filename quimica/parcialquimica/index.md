@@ -52,7 +52,13 @@ title: Base teórica para el parcial de química
 
 
         <div class="pdf-viewer">
-            <embed src="main.pdf" width="100%" height="100%" type="application/pdf">
-        </div>
+    <embed id="pdf-embed" src="main.pdf" width="100%" height="100%" type="application/pdf">
+</div>
+
+<script>
+    const pdfEmbed = document.getElementById('pdf-embed');
+    pdfEmbed.src = `main.pdf?v=${new Date().getTime()}`;
+</script>
+
     </div>
 </body>
