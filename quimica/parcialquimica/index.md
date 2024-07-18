@@ -15,7 +15,7 @@ title: Base teórica para el parcial de química
         <br>
         <br>
         <a class="button" href="main.pdf" download="main.pdf">Descargar PDF</a>
-        <div class="update-info" id="update-info"></div>
+ <div class="update-info" id="update-info"></div>
 
 <script>
     function updateLastModified() {
@@ -33,7 +33,9 @@ title: Base teórica para el parcial de química
         if (diffInDays > 0) {
             timeAgo = `hace ${diffInDays} ${diffInDays === 1 ? 'día' : 'días'}`;
         } else if (diffInHours > 0) {
-            timeAgo = `hace ${diffInHours} ${diffInHours === 1 ? 'hora' : 'horas'}`;
+            const hours = diffInHours;
+            const minutes = diffInMinutes % 60;
+            timeAgo = `hace ${hours} ${hours === 1 ? 'hora' : 'horas'} y ${minutes} ${minutes === 1 ? 'minuto' : 'minutos'}`;
         } else if (diffInMinutes > 0) {
             timeAgo = `hace ${diffInMinutes} ${diffInMinutes === 1 ? 'minuto' : 'minutos'}`;
         } else {
@@ -47,6 +49,7 @@ title: Base teórica para el parcial de química
     // Llamar a la función para actualizar la información al cargar la página
     updateLastModified();
 </script>
+
 
         <div class="pdf-viewer">
             <embed src="main.pdf" width="100%" height="100%" type="application/pdf">
