@@ -9,9 +9,9 @@ title: Base teórica para el parcial de química
         <div class="link-wrapper">
             <a class="button" href="main.pdf" target="_blank">Ver en otra pestaña</a><br>
         </div>
-         <div class="smalltext">
+        <div class="smalltext">
          (recomendable si la última modificación es reciente o si estás en celular)
-         </div>
+        </div>
         <br>
         <br>
         <a class="button" href="main.pdf" download="main.pdf">Descargar PDF</a>
