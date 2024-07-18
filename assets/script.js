@@ -13,9 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const fileList = document.getElementById('file-list');
             
             links.forEach(link => {
-                if (link.href.includes('/files/')) {
+                const path = link.getAttribute('href');
+                const fileName = path.split('/').pop();
+                
+                // Check if the link is a file or a directory
+                if (path.endsWith('/')) {
+                    // It's a directory (folder)
                     const li = document.createElement('li');
-                    li.textContent = link.href.split('/').pop();
+                    li.textContent = `${fileName} (Directory)`;
+                    fileList.appendChild(li);
+                } else {
+                    // It's a file
+                    const li = document.createElement('li');
+                    li.textContent = fileName;
                     fileList.appendChild(li);
                 }
             });
