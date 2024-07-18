@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('quimica')
+    fetch('/quimica')
         .then(response => {
             if (response.ok) {
                 return response.text();
