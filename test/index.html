@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Celulosa</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .glucose {
+            fill: none;
+            stroke: black;
+            stroke-width: 2px;
+        }
+        .bond {
+            stroke: black;
+            stroke-width: 2px;
+        }
+        .oxygen {
+            fill: red;
+        }
+        .hydrogen {
+            fill: blue;
+        }
+        .label {
+            font-size: 12px;
+            text-anchor: middle;
+        }
+    </style>
+</head>
+<body>
+    <svg width="800" height="200"></svg>
+    <script>
+        const svg = d3.select("svg");
+        const glucoseRadius = 30;
+        const numUnits = 5;
+        const offsetX = 100;
+        const offsetY = 100;
+        
+        function drawGlucose(x, y, label) {
+            // Dibujar hexágono para representar la glucosa
+            const points = d3.range(0, 2 * Math.PI, Math.PI / 3).map(angle => [
+                x + Math.cos(angle) * glucoseRadius,
+                y + Math.sin(angle) * glucoseRadius
+            ]);
+            svg.append("polygon")
+                .attr("points", points.join(" "))
+                .attr("class", "glucose");
+            
+            svg.append("text")
+                .attr("x", x)
+                .attr("y", y + 5)
+                .attr("class", "label")
+                .text(label);
+        }
+        
+        function drawBond(x1, y1, x2, y2) {
+            svg.append("line")
+                .attr("x1", x1)
+                .attr("y1", y1)
+                .attr("x2", x2)
+                .attr("y2", y2)
+                .attr("class", "bond");
+        }
+        
+        function drawOxygen(x, y) {
+            svg.append("circle")
+                .attr("cx", x)
+                .attr("cy", y)
+                .attr("r", 5)
+                .attr("class", "oxygen");
+        }
+        
+        function drawHydrogen(x, y) {
+            svg.append("circle")
+                .attr("cx", x)
+                .attr("cy", y)
+                .attr("r", 5)
+                .attr("class", "hydrogen");
+        }
+        
+        // Dibujar múltiples unidades de glucosa conectadas por enlaces β(1→4)
+        for (let i = 0; i < numUnits; i++) {
+            const x = offsetX + i * 2 * glucoseRadius;
+            drawGlucose(x, offsetY, `C1-${i}`);
+            if (i > 0) {
+                const prevX = offsetX + (i - 1) * 2 * glucoseRadius;
+                drawBond(prevX + glucoseRadius * 0.5, offsetY - glucoseRadius * 0.5, x - glucoseRadius * 0.5, offsetY - glucoseRadius * 0.5);
+                drawOxygen(prevX + glucoseRadius, offsetY - glucoseRadius * 0.5);
+            }
+        }
+        
+        // Dibujar enlaces adicionales y átomos de hidrógeno para la primera unidad
+        drawBond(offsetX + glucoseRadius * 0.5, offsetY - glucoseRadius * 0.5, offsetX + glucoseRadius * 0.5, offsetY - glucoseRadius);
+        drawHydrogen(offsetX + glucoseRadius * 0.5, offsetY - glucoseRadius);
+    </script>
+</body>
+</html>
