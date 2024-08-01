@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Papel - Timeline Moderno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #3498db;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: #fff;
+            border: 4px solid #3498db;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid #fff;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #fff;
+        }
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid #fff;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #fff transparent transparent;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #3498db;
+        }
+        @media screen and (max-width: 600px) {
+            .timeline::after {
+                left: 31px;
+            }
+            .container {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+            .container::before {
+                left: 60px;
+                border: medium solid white;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent white transparent transparent;
+            }
+            .left::after, .right::after {
+                left: 15px;
+            }
+            .right {
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <h2>3000 a.C. - Papiro</h2>
+                <p>Los antiguos egipcios desarrollan el papiro, uno de los primeros materiales de escritura. Se fabrica a partir de la planta de papiro del Nilo.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>200 a.C. - Pergamino</h2>
+                <p>Se inventa el pergamino en Pérgamo (actual Turquía). Se hace con pieles de animales tratadas y se usa ampliamente en la Edad Media.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>105 d.C. - Invención del Papel</h2>
+                <p>Cai Lun, un oficial de la corte imperial china, perfecciona la técnica de fabricación de papel utilizando corteza de morera, bambú y otros materiales vegetales.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>610 d.C. - Expansión a Japón</h2>
+                <p>La técnica de fabricación de papel llega a Japón a través de monjes budistas coreanos, dando lugar al washi, papel tradicional japonés.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>751 d.C. - Llegada al Mundo Árabe</h2>
+                <p>Tras la Batalla de Talas, prisioneros chinos introducen la fabricación de papel en Samarcanda, desde donde se extiende por todo el mundo islámico.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Siglos XI-XII - Llegada a Europa</h2>
+                <p>La fabricación de papel se introduce en Europa a través de España (Al-Ándalus) e Italia, revolucionando la producción de libros y documentos.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>1450 - Imprenta de Gutenberg</h2>
+                <p>La invención de la imprenta de tipos móviles por Johannes Gutenberg aumenta enormemente la demanda de papel en Europa.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>1799 - Máquina de Papel Continuo</h2>
+                <p>Louis-Nicolas Robert inventa la primera máquina de papel continuo, iniciando la industrialización de la producción de papel.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>1840 - Pulpa de Madera</h2>
+                <p>Friedrich Gottlob Keller patenta un proceso para fabricar papel a partir de pulpa de madera, lo que reduce significativamente el costo de producción.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Siglo XX-XXI - Era Digital</h2>
+                <p>A pesar del auge de las tecnologías digitales, el papel sigue siendo fundamental en la sociedad moderna, con nuevos desarrollos en papel reciclado y sostenible.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
