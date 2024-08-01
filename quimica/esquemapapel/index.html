@@ -3,97 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia del Papel</title>
+    <title>Mapa Mental: Historia del Papel</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f7f9fc;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            overflow-x: hidden;
+            height: 100vh;
         }
+
         .container {
             text-align: center;
-            width: 90%;
-            max-width: 1200px;
-            margin: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
+
         h1 {
             color: #333;
-            margin-bottom: 40px;
-            font-size: 2.5em;
-            font-weight: bold;
+            margin-bottom: 20px;
         }
+
         .map {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 20px;
-        }
-        .node {
-            background: #fff;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            padding: 20px;
-            width: calc(50% - 40px);
-            max-width: 300px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            flex-direction: column;
+            align-items: center;
             position: relative;
-            text-align: left;
+        }
+
+        .node {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px 30px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
             cursor: pointer;
-            overflow: hidden;
-            box-sizing: border-box;
         }
+
+        .node a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
         .node:hover {
+            background-color: #e0e0e0;
             transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-            background-color: #e8f4f8;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
         }
-        .node::before {
+
+        .child {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            transition: max-height 0.3s ease-out;
+            overflow: hidden;
+        }
+
+        .child.collapsed {
+            max-height: 0;
+            padding: 0;
+        }
+
+        .child.expanded {
+            max-height: 500px; /* Adjust as needed */
+        }
+
+        .central {
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: #ffcc00;
+            color: #333;
+            cursor: default;
+        }
+
+        .node::after {
             content: '';
             position: absolute;
-            top: -10px;
+            top: 50%;
             left: 50%;
-            width: 0;
-            height: 0;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 10px solid #fff;
-            transform: translateX(-50%);
+            width: 2px;
+            height: 20px;
+            background-color: #333;
+            transform: translate(-50%, -50%);
         }
-        .node:nth-child(1) {
-            border-color: #4caf50;
+
+        .node:first-child::after {
+            display: none;
         }
-        .node:nth-child(2) {
-            border-color: #ff9800;
-        }
-        .node:nth-child(3) {
-            border-color: #2196f3;
-        }
-        .node:nth-child(4) {
-            border-color: #f44336;
-        }
-        .node h2 {
-            color: #333;
-            margin-top: 0;
-            font-size: 1.5em;
-        }
-        .node p {
-            color: #666;
-            font-size: 1em;
-            line-height: 1.6;
-            margin: 10px 0 0;
-        }
-        /* Responsive Design */
-        @media (max-width: 768px) {
+
+        @media (max-width: 600px) {
             .node {
-                width: calc(100% - 40px);
+                padding: 10px 20px;
+                font-size: 0.9em;
             }
         }
     </style>
@@ -102,23 +110,57 @@
     <div class="container">
         <h1>Historia del Papel</h1>
         <div class="map">
-            <a href="#origen-china" class="node">
-                <h2 id="origen-china">Origen en China</h2>
-                <p>El papel fue inventado en China alrededor del año 105 d.C. por Cai Lun, quien mejoró el proceso de fabricación utilizando fibras vegetales.</p>
-            </a>
-            <a href="#expansion-asia" class="node">
-                <h2 id="expansion-asia">Expansión en Asia</h2>
-                <p>La tecnología del papel se difundió a través de Asia, llegando a Corea y Japón. Se mejoraron las técnicas y el papel se convirtió en un material esencial para la escritura.</p>
-            </a>
-            <a href="#introduccion-europa" class="node">
-                <h2 id="introduccion-europa">Introducción en Europa</h2>
-                <p>El papel llegó a Europa en el siglo XII, gracias a los árabes. La producción se estableció en España y se expandió por todo el continente, revolucionando la escritura y la impresión.</p>
-            </a>
-            <a href="#revolucion-industrial" class="node">
-                <h2 id="revolucion-industrial">Revolución Industrial</h2>
-                <p>En el siglo XIX, la invención de la máquina de papel y la producción en masa transformaron la industria. El papel se volvió más accesible y económico, facilitando la difusión del conocimiento.</p>
-            </a>
+            <div class="node central">
+                <a href="#">Historia del Papel</a>
+            </div>
+            <div class="node">
+                <a href="#invencion" onclick="toggleVisibility('invencion')">Invención del Papel</a>
+                <div id="invencion" class="child collapsed">
+                    <div class="node">
+                        <a href="#carta" onclick="toggleVisibility('carta')">China</a>
+                        <div id="carta" class="child collapsed">
+                            <div class="node">Primeros papeles en China</div>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <a href="#expansion" onclick="toggleVisibility('expansion')">Expansión a Europa</a>
+                        <div id="expansion" class="child collapsed">
+                            <div class="node">Introducción del papel en Europa</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="node">
+                <a href="#evolucion" onclick="toggleVisibility('evolucion')">Evolución</a>
+                <div id="evolucion" class="child collapsed">
+                    <div class="node">
+                        <a href="#imprenta" onclick="toggleVisibility('imprenta')">Invención de la Imprenta</a>
+                        <div id="imprenta" class="child collapsed">
+                            <div class="node">Impacto de la imprenta en el papel</div>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <a href="#papelmoderno" onclick="toggleVisibility('papelmoderno')">Papel Moderno</a>
+                        <div id="papelmoderno" class="child collapsed">
+                            <div class="node">Desarrollo del papel moderno</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.classList.contains('collapsed')) {
+                element.classList.remove('collapsed');
+                element.classList.add('expanded');
+            } else {
+                element.classList.remove('expanded');
+                element.classList.add('collapsed');
+            }
+        }
+    </script>
 </body>
 </html>
