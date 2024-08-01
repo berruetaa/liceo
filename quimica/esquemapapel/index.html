@@ -4,140 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia del Papel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
         }
-        header {
-            background: linear-gradient(to right, #4A90E2, #50A6E3);
-            color: white;
-            padding: 1em 2em;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #f4f4f4;
-            padding: 1em 0;
-        }
-        nav a {
-            margin: 0 1em;
-            text-decoration: none;
+
+        body {
+            background-color: #f5f5f5;
             color: #333;
+        }
+
+        .header {
+            background: linear-gradient(to right, #ff8a00, #e52e71);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
             font-weight: bold;
         }
-        .container {
-            padding: 2em;
+
+        .nav a:hover {
+            text-decoration: underline;
         }
+
+        .main-content {
+            padding: 2rem 1rem;
+        }
+
         .section {
-            margin-bottom: 3em;
+            margin-bottom: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
         }
+
         .section h2 {
-            color: #4A90E2;
-            font-size: 2em;
-            margin-bottom: 0.5em;
+            margin-bottom: 1rem;
         }
+
         .section p {
-            line-height: 1.6;
-            margin-bottom: 1em;
+            margin-bottom: 1rem;
         }
-        .section img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 1em;
+
+        .more-info {
+            display: none;
+            margin-top: 1rem;
         }
-        footer {
+
+        .footer {
+            background-color: #333;
+            color: white;
             text-align: center;
-            background: #f4f4f4;
-            padding: 1em 0;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
-        @media (min-width: 768px) {
-            .section {
-                display: flex;
-                align-items: center;
-            }
-            .section:nth-child(even) {
-                flex-direction: row-reverse;
-            }
-            .section div {
-                flex: 1;
-                padding: 0 2em;
-            }
+
+        button {
+            background-color: #e52e71;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff8a00;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>La Fascinante Historia del Papel</h1>
+    <header class="header">
+        <h1>Historia del Papel</h1>
+        <p>Un viaje fascinante desde sus inicios hasta la actualidad</p>
     </header>
-    <nav>
-        <a href="#origenes">Orígenes</a>
-        <a href="#china">China Antigua</a>
-        <a href="#expansion">Expansión</a>
-        <a href="#moderno">Uso Moderno</a>
+    <nav class="nav">
+        <ul>
+            <li><a href="#antiguedad">Antigüedad</a></li>
+            <li><a href="#edad-media">Edad Media</a></li>
+            <li><a href="#renacimiento">Renacimiento</a></li>
+            <li><a href="#actualidad">Actualidad</a></li>
+        </ul>
     </nav>
-    <div class="container">
-        <section id="origenes" class="section">
-            <div>
-                <h2>Orígenes del Papel</h2>
-                <p>El papel se originó en China alrededor del año 105 d.C. Se cree que fue inventado por Cai Lun, un funcionario de la corte de la dinastía Han, quien experimentó con diversos materiales como corteza de árbol, trapos y redes de pesca usadas.</p>
-                <p>Antes de la invención del papel, se utilizaban otros materiales como el papiro en Egipto, las tablillas de arcilla en Mesopotamia y los pergaminos en varias culturas mediterráneas.</p>
-            </div>
-            <div>
-                <img src="https://example.com/origenes.jpg" alt="Orígenes del Papel">
+    <main class="main-content">
+        <section id="antiguedad" class="section">
+            <h2>Antigüedad</h2>
+            <p>El papel tiene sus orígenes en la antigua China, alrededor del año 105 d.C., donde fue inventado por Cai Lun...</p>
+            <button onclick="showMore('antiguedad')">Leer más</button>
+            <div id="antiguedad-more" class="more-info">
+                <p>El proceso inicial implicaba la maceración de fibras vegetales, principalmente bambú y cáñamo...</p>
             </div>
         </section>
-        <section id="china" class="section">
-            <div>
-                <h2>China Antigua</h2>
-                <p>En la antigua China, la fabricación de papel evolucionó rápidamente. El proceso inicial implicaba triturar los materiales y mezclarlos con agua para formar una pasta que luego se extendía sobre un marco y se dejaba secar al sol.</p>
-                <p>El papel chino fue altamente valorado y su método de fabricación se mantuvo en secreto durante varios siglos, permitiendo a China mantener un monopolio en su producción.</p>
-            </div>
-            <div>
-                <img src="https://example.com/china.jpg" alt="China Antigua">
+        <section id="edad-media" class="section">
+            <h2>Edad Media</h2>
+            <p>Durante la Edad Media, el conocimiento de la fabricación del papel se expandió hacia el mundo islámico...</p>
+            <button onclick="showMore('edad-media')">Leer más</button>
+            <div id="edad-media-more" class="more-info">
+                <p>En Bagdad, se establecieron los primeros molinos de papel en el siglo VIII...</p>
             </div>
         </section>
-        <section id="expansion" class="section">
-            <div>
-                <h2>Expansión a Occidente</h2>
-                <p>El conocimiento de la fabricación de papel se extendió gradualmente hacia el oeste. Primero llegó a Corea y Japón, y luego, a través de la Ruta de la Seda, llegó a Oriente Medio y finalmente a Europa en el siglo XII.</p>
-                <p>Los primeros molinos de papel en Europa comenzaron a aparecer en España y luego en Italia y Francia. La invención de la imprenta por Gutenberg en el siglo XV aumentó drásticamente la demanda de papel.</p>
-            </div>
-            <div>
-                <img src="https://example.com/expansion.jpg" alt="Expansión del Papel">
+        <section id="renacimiento" class="section">
+            <h2>Renacimiento</h2>
+            <p>Con la invención de la imprenta por Gutenberg en el siglo XV, el papel se convirtió en un elemento esencial...</p>
+            <button onclick="showMore('renacimiento')">Leer más</button>
+            <div id="renacimiento-more" class="more-info">
+                <p>La producción de papel se refinó aún más en Europa, adoptando técnicas mejoradas...</p>
             </div>
         </section>
-        <section id="moderno" class="section">
-            <div>
-                <h2>Uso Moderno</h2>
-                <p>En la era moderna, el papel sigue siendo un material indispensable. Su fabricación se ha industrializado, utilizando pasta de madera y métodos avanzados que permiten producir grandes cantidades a bajo costo.</p>
-                <p>El papel se utiliza en innumerables aplicaciones, desde libros y periódicos hasta embalajes y productos higiénicos. A pesar del auge de la era digital, el papel sigue siendo vital en la vida cotidiana.</p>
-            </div>
-            <div>
-                <img src="https://example.com/moderno.jpg" alt="Uso Moderno del Papel">
+        <section id="actualidad" class="section">
+            <h2>Actualidad</h2>
+            <p>Hoy en día, el papel sigue siendo una parte fundamental de nuestra vida, aunque se enfrenta a desafíos...</p>
+            <button onclick="showMore('actualidad')">Leer más</button>
+            <div id="actualidad-more" class="more-info">
+                <p>La industria del papel ha avanzado significativamente en términos de sostenibilidad...</p>
             </div>
         </section>
-    </div>
-    <footer>
-        <p>© 2024 Historia del Papel. Todos los derechos reservados.</p>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Historia del Papel. Todos los derechos reservados.</p>
     </footer>
     <script>
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        function showMore(sectionId) {
+            const moreInfo = document.getElementById(`${sectionId}-more`);
+            if (moreInfo.style.display === 'block') {
+                moreInfo.style.display = 'none';
+            } else {
+                moreInfo.style.display = 'block';
+            }
+        }
     </script>
 </body>
 </html>
