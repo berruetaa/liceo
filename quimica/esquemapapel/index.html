@@ -6,51 +6,79 @@
     <title>Historia del Papel</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+            text-align: center;
+            width: 80%;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            font-weight: bold;
         }
         .map {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
-            text-align: center;
+            gap: 20px;
         }
         .node {
-            background-color: #ffffff;
-            border: 2px solid #007bff;
-            border-radius: 10px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 15px;
             padding: 20px;
-            margin: 15px;
-            width: 200px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
         }
-        .node h2 {
-            font-size: 1.2em;
-            margin-top: 0;
+        .node:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
         }
-        .node p {
-            font-size: 0.9em;
-            line-height: 1.4;
+        .node::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #fff;
+            transform: translateX(-50%);
         }
         .node:nth-child(1) {
-            background-color: #d9fbee;
+            border-color: #4caf50;
         }
         .node:nth-child(2) {
-            background-color: #fce8d6;
+            border-color: #ff9800;
         }
         .node:nth-child(3) {
-            background-color: #e3f2fd;
+            border-color: #2196f3;
         }
         .node:nth-child(4) {
-            background-color: #fff3e0;
+            border-color: #f44336;
+        }
+        .node h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .node p {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6;
+            margin: 10px 0 0;
         }
     </style>
 </head>
