@@ -93,6 +93,94 @@
         button:hover {
             background-color: #ff8a00;
         }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .timeline-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        @media (min-width: 768px) {
+            .timeline {
+                flex-direction: row;
+                overflow-x: auto;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .timeline-item img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .modal.active {
+            display: block;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .modal-content {
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        .overlay.active {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -115,6 +203,16 @@
             <button onclick="showMore('antiguedad')">Leer más</button>
             <div id="antiguedad-more" class="more-info">
                 <p>El proceso inicial implicaba la maceración de fibras vegetales, principalmente bambú y cáñamo...</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Cai Lun">
+                        <p>105 d.C. - Cai Lun inventa el papel en China</p>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Difusión">
+                        <p>600 d.C. - Difusión del papel a Corea y Japón</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="edad-media" class="section">
@@ -123,6 +221,16 @@
             <button onclick="showMore('edad-media')">Leer más</button>
             <div id="edad-media-more" class="more-info">
                 <p>En Bagdad, se establecieron los primeros molinos de papel en el siglo VIII...</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Bagdad">
+                        <p>751 d.C. - Batalla del Talas y difusión del papel al mundo islámico</p>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Molina de Papel">
+                        <p>800 d.C. - Primer molino de papel en Bagdad</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="renacimiento" class="section">
@@ -131,6 +239,16 @@
             <button onclick="showMore('renacimiento')">Leer más</button>
             <div id="renacimiento-more" class="more-info">
                 <p>La producción de papel se refinó aún más en Europa, adoptando técnicas mejoradas...</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Imprenta de Gutenberg">
+                        <p>1440 - Gutenberg inventa la imprenta</p>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Difusión en Europa">
+                        <p>1500 - Difusión del papel en toda Europa</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="actualidad" class="section">
@@ -139,12 +257,32 @@
             <button onclick="showMore('actualidad')">Leer más</button>
             <div id="actualidad-more" class="more-info">
                 <p>La industria del papel ha avanzado significativamente en términos de sostenibilidad...</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Reciclaje">
+                        <p>1980 - Aumento en el reciclaje de papel</p>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="https://via.placeholder.com/150" alt="Digitalización">
+                        <p>2000 - Era de la digitalización y menor uso del papel</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <p>&copy; 2024 Historia del Papel. Todos los derechos reservados.</p>
     </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-header">
+            <h2>Más Información</h2>
+            <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+        <div class="modal-content" id="modal-content"></div>
+    </div>
+    <div id="overlay" class="overlay"></div>
+
     <script>
         function showMore(sectionId) {
             const moreInfo = document.getElementById(`${sectionId}-more`);
@@ -154,6 +292,29 @@
                 moreInfo.style.display = 'block';
             }
         }
+
+        function openModal(content) {
+            document.getElementById('modal-content').innerHTML = content;
+            document.getElementById('modal').classList.add('active');
+            document.getElementById('overlay').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+        }
+
+        document.querySelectorAll('button[onclick^="showMore"]').forEach(button => {
+            button.addEventListener('click', () => {
+                const sectionId = button.getAttribute('onclick').match(/'([^']+)'/)[1];
+                const moreInfo = document.getElementById(`${sectionId}-more`);
+                if (moreInfo.style.display === 'block') {
+                    button.innerText = 'Leer más';
+                } else {
+                    button.innerText = 'Leer menos';
+                }
+            });
+        });
     </script>
 </body>
 </html>
