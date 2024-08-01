@@ -7,17 +7,20 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f4f8;
+            background-color: #f7f9fc;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            overflow-x: hidden;
         }
         .container {
             text-align: center;
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px;
         }
         h1 {
             color: #333;
@@ -29,21 +32,28 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
+            gap: 30px;
+            margin-top: 20px;
         }
         .node {
             background: #fff;
-            border: 1px solid #ccc;
-            border-radius: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
             padding: 20px;
-            width: 250px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: calc(50% - 40px);
+            max-width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             position: relative;
+            text-align: left;
+            cursor: pointer;
+            overflow: hidden;
+            box-sizing: border-box;
         }
         .node:hover {
             transform: scale(1.05);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            background-color: #e8f4f8;
         }
         .node::before {
             content: '';
@@ -75,10 +85,16 @@
             font-size: 1.5em;
         }
         .node p {
-            color: #555;
+            color: #666;
             font-size: 1em;
             line-height: 1.6;
             margin: 10px 0 0;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .node {
+                width: calc(100% - 40px);
+            }
         }
     </style>
 </head>
@@ -86,22 +102,22 @@
     <div class="container">
         <h1>Historia del Papel</h1>
         <div class="map">
-            <div class="node">
-                <h2>Origen en China</h2>
+            <a href="#origen-china" class="node">
+                <h2 id="origen-china">Origen en China</h2>
                 <p>El papel fue inventado en China alrededor del año 105 d.C. por Cai Lun, quien mejoró el proceso de fabricación utilizando fibras vegetales.</p>
-            </div>
-            <div class="node">
-                <h2>Expansión en Asia</h2>
+            </a>
+            <a href="#expansion-asia" class="node">
+                <h2 id="expansion-asia">Expansión en Asia</h2>
                 <p>La tecnología del papel se difundió a través de Asia, llegando a Corea y Japón. Se mejoraron las técnicas y el papel se convirtió en un material esencial para la escritura.</p>
-            </div>
-            <div class="node">
-                <h2>Introducción en Europa</h2>
+            </a>
+            <a href="#introduccion-europa" class="node">
+                <h2 id="introduccion-europa">Introducción en Europa</h2>
                 <p>El papel llegó a Europa en el siglo XII, gracias a los árabes. La producción se estableció en España y se expandió por todo el continente, revolucionando la escritura y la impresión.</p>
-            </div>
-            <div class="node">
-                <h2>Revolución Industrial</h2>
+            </a>
+            <a href="#revolucion-industrial" class="node">
+                <h2 id="revolucion-industrial">Revolución Industrial</h2>
                 <p>En el siglo XIX, la invención de la máquina de papel y la producción en masa transformaron la industria. El papel se volvió más accesible y económico, facilitando la difusión del conocimiento.</p>
-            </div>
+            </a>
         </div>
     </div>
 </body>
