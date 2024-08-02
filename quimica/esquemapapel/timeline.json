@@ -178,6 +178,49 @@
           "headline": "El Renacimiento del Papel Artesanal",
           "text": "<p>En el siglo XXI, el papel hecho a mano ha experimentado un renacimiento como medio de expresión artística. A pesar del auge de las tecnologías digitales, el papel artesanal sigue siendo valorado por su textura única y su capacidad para transmitir emociones en formas que las pantallas digitales no pueden igualar, manteniendo viva una tradición centenaria.</p>"
         }
+      },
+      {
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pulp_and_paper_making_in_China%2C_17th_century.jpg/1280px-Pulp_and_paper_making_in_China%2C_17th_century.jpg",
+          "caption": "Fabricación de pulpa de papel en China, siglo XVII.",
+          "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pulp_and_paper_making_in_China%2C_17th_century.jpg/1280px-Pulp_and_paper_making_in_China%2C_17th_century.jpg'>Wikimedia Commons</a>"
+        },
+        "start_date": {
+          "year": "17th"
+        },
+        "text": {
+          "headline": "Avances en la Fabricación de Pulpa en China",
+          "text": "<p>Durante el siglo XVII, la técnica de fabricación de pulpa de papel en China evolucionó con la introducción de nuevas herramientas y métodos. Este periodo vio la mejora en la calidad de la pulpa y la implementación de técnicas más avanzadas para la producción de papel, contribuyendo al desarrollo de la industria papelera en Asia y más allá.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Black_and_white_paper_making.JPG",
+          "caption": "Proceso de fabricación de papel negro y blanco.",
+          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Black_and_white_paper_making.JPG'>Wikimedia Commons</a>"
+        },
+        "start_date": {
+          "year": "1900"
+        },
+        "text": {
+          "headline": "Innovaciones en el Proceso de Fabricación",
+          "text": "<p>A lo largo del siglo XX, la industria papelera experimentó diversas innovaciones en el proceso de fabricación, incluyendo el desarrollo de papeles especiales y el uso de nuevas tecnologías para mejorar la eficiencia y la calidad del papel. Estos avances permitieron una mayor variedad en los tipos de papel y sus aplicaciones.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Uruguay_Paper_Industry.JPG",
+          "caption": "Fábrica de papel en Uruguay.",
+          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Uruguay_Paper_Industry.JPG'>Wikimedia Commons</a>"
+        },
+        "start_date": {
+          "year": "1948"
+        },
+        "text": {
+          "headline": "Inicio de la Industria Papelera en Uruguay",
+          "text": "<p>En 1948, se estableció la primera fábrica de papel en Uruguay, la Fábrica de Papel del Uruguay (FAPUR), en Fray Bentos. Esta planta marcó el inicio de la industria papelera en el país, contribuyendo al desarrollo económico y a la creación de empleo. La FAPUR se ha convertido en un importante centro de producción de papel en América del Sur, exportando productos a varios países.</p>"
+        }
       }
     ]
-  }  
+  }
+  
