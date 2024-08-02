@@ -1,253 +1,498 @@
 {
   "title": {
     "media": {
-      "url": "http://example.com/image.jpg",
-      "caption": "Una representación artística de la fabricación de papel en la antigüedad",
-      "credit": "Fuente: Biblioteca Nacional"
+      "url": "",
+      "caption": "",
+      "credit": ""
     },
     "text": {
-      "headline": "Línea de Tiempo de la Historia del Papel y la Fabricación de Papel",
-      "text": "Un recorrido histórico desde la invención del papel hasta los avances modernos en su producción."
+      "headline": "Línea de Tiempo del Papel y la Fabricación de Papel",
+      "text": "<p>Una cronología detallada de los eventos más importantes en la historia del papel y su fabricación.</p>"
     }
   },
   "events": [
     {
-      "start_date": {
-        "year": -3000
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Los egipcios dominan el arte de crear papel de papiro",
-      "text": "El papiro se convierte en el primer soporte para escritura conocido en la historia."
+      "start_date": {
+        "year": "-3000"
+      },
+      "text": {
+        "headline": "3000 a.C. – Los egipcios dominaron el arte de crear papel de papiro",
+        "text": "<p>Los antiguos egipcios desarrollaron una técnica para fabricar papel usando el tallo de la planta de papiro.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": -2450
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer registro de procesamiento de pieles de animales en pergamino",
-      "text": "Se encuentra el registro más antiguo sobre el uso de pieles para fabricar pergamino."
+      "start_date": {
+        "year": "-2450"
+      },
+      "text": {
+        "headline": "2450 a.C. – Primer registro sobreviviente del uso de pieles de animales para hacer pergamino",
+        "text": "<p>Se encontraron registros antiguos que muestran cómo se procesaban las pieles de animales para crear pergamino.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": -2200
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Registro más antiguo de papiro egipcio",
-      "text": "El papiro egipcio se empieza a utilizar como soporte para la escritura en Egipto."
+      "start_date": {
+        "year": "-2200"
+      },
+      "text": {
+        "headline": "2200 a.C. – Primer registro sobreviviente de papiro egipcio",
+        "text": "<p>El papiro egipcio más antiguo conocido data de esta época.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": -200
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera fabricación de pergamino en la China antigua",
-      "text": "La producción de pergamino se documenta en Pergamon (Asia Menor)."
+      "start_date": {
+        "year": "-200"
+      },
+      "text": {
+        "headline": "200 a.C. – Primera fabricación de pergamino en la antigua China, específicamente en Pérgamo (Asia Menor)",
+        "text": "<p>El pergamino comenzó a fabricarse en Pérgamo, una ciudad de Asia Menor.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": -150
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Inicio de la producción organizada de papel en China",
-      "text": "Se empieza a producir papel a partir de fibras de cáñamo maceradas, redes viejas, corteza de plantas y agua."
+      "start_date": {
+        "year": "-150"
+      },
+      "text": {
+        "headline": "150 a.C. – Comienza la primera producción organizada de papel en China",
+        "text": "<p>El primer papel se hizo en China usando fibras de cáñamo maceradas, redes de pesca viejas, corteza de plantas y agua.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": -149
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera producción de un diccionario en China",
-      "text": "Hu Shin crea el primer diccionario chino, que contiene alrededor de 10 mil caracteres."
+      "start_date": {
+        "year": "-149"
+      },
+      "text": {
+        "headline": "149 a.C. – Primer diccionario producido en China por Hu Shin",
+        "text": "<p>Hu Shin produjo el primer diccionario en China, que contenía alrededor de 10 mil caracteres.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 105
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer registro escrito sobre el proceso de fabricación de papel",
-      "text": "Ts'ai Lun de China documenta el proceso, cuyas directrices se seguirán durante siglos."
+      "start_date": {
+        "year": "105"
+      },
+      "text": {
+        "headline": "105 d.C. – Primer registro escrito sobre el proceso de fabricación de papel por Ts'ai Lun en China",
+        "text": "<p>Ts'ai Lun documentó el proceso de fabricación de papel, cuyas directrices se siguieron durante varios siglos.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 250
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer libro sobre álgebra",
-      "text": "Diophantus de Alejandría escribe el primer libro sobre álgebra."
+      "start_date": {
+        "year": "250"
+      },
+      "text": {
+        "headline": "250 d.C. – Primer libro sobre álgebra escrito por Diofanto de Alejandría",
+        "text": "<p>Diofanto de Alejandría escribió el primer libro sobre álgebra conocido.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 500
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Los mayas utilizan papel hecho de corteza de árbol",
-      "text": "El papel se usa en la civilización maya, hecho a partir de corteza de árbol."
+      "start_date": {
+        "year": "500"
+      },
+      "text": {
+        "headline": "500 d.C. – Los mayas usaron papel creado a partir de cortezas de árboles",
+        "text": "<p>Los mayas fabricaron y usaron papel hecho de cortezas de árboles.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 610
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "El papel llega a Japón",
-      "text": "El papel empieza a ser fabricado en Japón tras su introducción desde China."
+      "start_date": {
+        "year": "610"
+      },
+      "text": {
+        "headline": "610 d.C. – El papel llegó y comenzó a ser fabricado en Japón",
+        "text": "<p>El papel se introdujo y comenzó a ser producido en Japón.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 707
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Papel chino se utiliza en La Meca",
-      "text": "El papel importado de China comienza a ser usado en La Meca."
+      "start_date": {
+        "year": "707"
+      },
+      "text": {
+        "headline": "707 d.C. – El papel chino importado comenzó a ser utilizado en La Meca",
+        "text": "<p>El papel importado de China comenzó a ser usado en La Meca.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 748
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Aparece el primer periódico impreso en Pekín",
-      "text": "Pekín publica el primer periódico impreso."
+      "start_date": {
+        "year": "748"
+      },
+      "text": {
+        "headline": "748 d.C. – Apareció el primer periódico impreso en Pekín",
+        "text": "<p>El primer periódico impreso apareció en Pekín.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 751
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Los árabes comienzan a producir papel",
-      "text": "Los árabes aprenden la receta del papel de los prisioneros chinos y empiezan a producirlo."
+      "start_date": {
+        "year": "751"
+      },
+      "text": {
+        "headline": "751 d.C. – Los árabes comenzaron a producir papel después de aprender la receta de prisioneros chinos",
+        "text": "<p>Los árabes empezaron a producir papel después de aprender la técnica de prisioneros chinos.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 868
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Uno de los primeros libros impresos: Sutra del Diamante",
-      "text": "Wang Chieh produce el Sutra del Diamante, un rollo de 16 pies de largo."
+      "start_date": {
+        "year": "868"
+      },
+      "text": {
+        "headline": "868 d.C. – Una de las primeras obras impresas fue el Sutra del Diamante por Wang Chieh",
+        "text": "<p>El Sutra del Diamante, impreso por Wang Chieh, es uno de los libros más antiguos impresos y mide 16 pies de largo.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 875
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "El primer uso de papel higiénico en China",
-      "text": "Se documenta el uso de papel higiénico en China."
+      "start_date": {
+        "year": "875"
+      },
+      "text": {
+        "headline": "875 d.C. – El papel higiénico fue utilizado en China",
+        "text": "<p>El uso del papel higiénico fue documentado en China.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 800
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "El papel es usado y producido en Egipto",
-      "text": "El papel se utiliza y se produce en Egipto durante este período."
+      "start_date": {
+        "year": "800"
+      },
+      "text": {
+        "headline": "800 d.C. – El papel comenzó a ser utilizado y producido en Egipto",
+        "text": "<p>El uso y la producción de papel se introdujeron en Egipto.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 969
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera aparición de cartas de juego en China",
-      "text": "Las cartas de juego se mencionan por primera vez en China."
+      "start_date": {
+        "year": "969"
+      },
+      "text": {
+        "headline": "969 d.C. – Primera aparición de cartas de juego en China",
+        "text": "<p>Las cartas de juego aparecieron por primera vez en China.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1035
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Referencia a empaques de papel en el diario de Nasiri Khosrau",
-      "text": "Nasiri Khosrau observa a vendedores de alimentos en El Cairo empaquetando productos en papel."
+      "start_date": {
+        "year": "1035"
+      },
+      "text": {
+        "headline": "1035 d.C. – Primera referencia registrada del uso de papel para embalaje",
+        "text": "<p>El viajero persa Nasiri Khosrau documentó cómo los vendedores de comida en El Cairo usaban papel para empacar sus productos.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1040
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Invención de tipos móviles por Bi Sheng",
-      "text": "Bi Sheng crea el primer tipo móvil durante la Dinastía Song en China."
+      "start_date": {
+        "year": "1040"
+      },
+      "text": {
+        "headline": "1040 d.C. – El inventor chino Bi Sheng creó el primer tipo móvil durante la Dinastía Song",
+        "text": "<p>Bi Sheng inventó el primer tipo móvil que revolucionó la impresión durante la Dinastía Song.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1109
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer manuscrito europeo en papel",
-      "text": "Se encuentra el manuscrito más antiguo en Europa, una escritura en árabe y griego del rey Roger."
+      "start_date": {
+        "year": "1109"
+      },
+      "text": {
+        "headline": "1109 d.C. – El manuscrito de papel europeo más antiguo: escritura del rey Roger",
+        "text": "<p>El documento más antiguo en papel europeo fue una escritura del rey Roger escrita en árabe y griego.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1151
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Inicio de la fabricación de papel en Europa",
-      "text": "El proceso de fabricación de papel comienza en Europa."
+      "start_date": {
+        "year": "1151"
+      },
+      "text": {
+        "headline": "1151 d.C. – El papel empezó a ser fabricado en Europa",
+        "text": "<p>La fabricación de papel comenzó en Europa en el siglo XII.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1282
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Uso de marcas de agua en Italia",
-      "text": "Italia comienza a usar marcas de agua en el papel."
+      "start_date": {
+        "year": "1282"
+      },
+      "text": {
+        "headline": "1282 d.C. – Los filigranas empezaron a ser utilizados en Italia",
+        "text": "<p>Las primeras marcas de agua aparecieron en Italia para identificar el origen del papel.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1450
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera impresión de la Biblia por Gutenberg",
-      "text": "Gutenberg imprime la primera Biblia utilizando una prensa de tipos móviles."
+      "start_date": {
+        "year": "1450",
+        "month": "01",
+        "day": "01"
+      },
+      "end_date": {
+        "year": "1455",
+        "month": "12",
+        "day": "31"
+      },
+      "text": {
+        "headline": "1450-55 d.C. – Gutenberg imprimió la primera biblia con una máquina de impresión de tipos móviles",
+        "text": "<p>Johannes Gutenberg desarrolló la imprenta de tipos móviles y produjo la primera biblia impresa.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1495
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera fábrica de papel establecida en Inglaterra",
-      "text": "Se establece la primera fábrica de papel en Inglaterra."
+      "start_date": {
+        "year": "1495"
+      },
+      "text": {
+        "headline": "1495 d.C. – Primer molino de papel establecido en Inglaterra",
+        "text": "<p>Se estableció el primer molino de papel en Inglaterra, marcando el inicio de la producción de papel en el país.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1549
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Incendio de la biblioteca maya",
-      "text": "Los españoles queman la biblioteca de textos antiguos de los mayas."
+      "start_date": {
+        "year": "1549"
+      },
+      "text": {
+        "headline": "1549 d.C. – Los españoles quemaron la biblioteca maya de textos antiguos",
+        "text": "<p>La destrucción de la biblioteca maya por los españoles borró una gran cantidad de conocimiento antiguo.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1636
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Riesgo de peste asociado a trapos de lino y algodón",
-      "text": "Se culpa a los trapos de lino y algodón importados por las fábricas de papel de propagar la peste."
+      "start_date": {
+        "year": "1636"
+      },
+      "text": {
+        "headline": "1636 d.C. – La culpa de la peste se atribuyó a los trapos de lino y algodón importados por las fábricas de papel",
+        "text": "<p>Durante la peste, se culpó a los trapos de lino y algodón utilizados en la fabricación de papel por la propagación de la enfermedad.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1690
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primera fábrica de papel en los EE.UU.",
-      "text": "Se establece la primera fábrica de papel en los Estados Unidos."
+      "start_date": {
+        "year": "1690"
+      },
+      "text": {
+        "headline": "1690 d.C. – Primer molino de papel establecido en Estados Unidos",
+        "text": "<p>El primer molino de papel en los Estados Unidos se estableció en 1690.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1705
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer periódico estadounidense - Boston News Letter",
-      "text": "Se publica el primer periódico en los Estados Unidos."
+      "start_date": {
+        "year": "1705"
+      },
+      "text": {
+        "headline": "1705 d.C. – Primer periódico americano: Boston News Letter",
+        "text": "<p>El Boston News Letter fue el primer periódico publicado en América.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1798
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Creación de la máquina de papel por N.L. Robert",
-      "text": "N.L. Robert inventa la primera máquina para la producción de papel."
+      "start_date": {
+        "year": "1798"
+      },
+      "text": {
+        "headline": "1798 d.C. – La máquina de papel fue creada por el inventor N.L. Robert",
+        "text": "<p>El inventor francés Nicolas-Louis Robert desarrolló la primera máquina para fabricar papel.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1804
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer libro impreso en papel hecho a máquina",
-      "text": "Se imprime el primer libro usando papel fabricado a máquina."
+      "start_date": {
+        "year": "1804"
+      },
+      "text": {
+        "headline": "1804 d.C. – Primer libro impreso en papel hecho a máquina",
+        "text": "<p>El primer libro impreso en papel fabricado con una máquina se produjo en 1804.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1806
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Patente de la máquina Fourdrinier",
-      "text": "Se patenta la máquina Fourdrinier, un avance crucial en la producción de papel."
+      "start_date": {
+        "year": "1806"
+      },
+      "text": {
+        "headline": "1806 d.C. – Máquina Fourdrinier patentada",
+        "text": "<p>La máquina Fourdrinier, que mejoró el proceso de fabricación de papel, fue patentada en 1806.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1844
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Producción de papel a partir de madera triturada",
-      "text": "Se empieza a producir papel utilizando madera triturada como materia prima."
+      "start_date": {
+        "year": "1844"
+      },
+      "text": {
+        "headline": "1844 d.C. – El papel comenzó a hacerse a partir de madera molida",
+        "text": "<p>El uso de madera molida para la fabricación de papel comenzó en 1844.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1854
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Papel hecho de fibras de celulosa con soda cáustica",
-      "text": "Se inicia la fabricación de papel a partir de fibras de celulosa extraídas de la madera con soda cáustica."
+      "start_date": {
+        "year": "1854"
+      },
+      "text": {
+        "headline": "1854 d.C. – El papel comenzó a hacerse a partir de fibras de celulosa extraídas de la madera con soda cáustica",
+        "text": "<p>Se desarrolló una técnica para fabricar papel utilizando fibras de celulosa extraídas de la madera con soda cáustica.</p>"
+      }
     },
     {
-      "start_date": {
-        "year": 1863
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
-      "headline": "Primer periódico creado con papel de 'madera molida'",
-      "text": "Se publica el primer periódico hecho con papel fabricado a partir de madera molida."
+      "start_date": {
+        "year": "1863"
+      },
+      "text": {
+        "headline": "1863 d.C. – Primer periódico creado a partir de papel de 'madera molida'",
+        "text": "<p>El primer periódico hecho de papel de madera molida se produjo en 1863.</p>"
+      }
     }
   ]
 }
