@@ -2,137 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Línea de Tiempo Interactiva</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-        }
-        .timeline {
-            position: relative;
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 10px;
-        }
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 6px;
-            background-color: #FF5733;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -3px;
-        }
-        .container {
-            padding: 10px 40px;
-            position: relative;
-            background-color: inherit;
-            width: 50%;
-        }
-        .container.left {
-            left: 0;
-        }
-        .container.right {
-            left: 50%;
-        }
-        .container::after {
-            content: "";
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            right: -17px;
-            background-color: white;
-            border: 4px solid #FF5733;
-            top: 15px;
-            border-radius: 50%;
-            z-index: 1;
-        }
-        .container.right::after {
-            left: -16px;
-        }
-        .content {
-            padding: 20px 30px;
-            background-color: white;
-            position: relative;
-            border-radius: 6px;
-        }
-        .content h2 {
-            margin: 0;
-            color: #FF5733;
-        }
-        .content p {
-            margin: 10px 0;
-            color: #555;
-        }
-        .content.active p {
-            display: block;
-        }
-        .content p {
-            display: none;
-        }
-        @media screen and (max-width: 600px) {
-            .timeline::after {
-                left: 31px;
-            }
-            .container {
-                width: 100%;
-                padding-left: 70px;
-                padding-right: 25px;
-            }
-            .container::before {
-                left: 60px;
-                border: medium none;
-                border-width: 10px 10px 10px 0;
-                border-color: transparent white transparent transparent;
-            }
-            .container.left::after, .container.right::after {
-                left: 18px;
-            }
-            .container.right {
-                left: 0%;
-            }
-        }
-    </style>
+    <title>Historia del Papel</title>
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 </head>
 <body>
-    <div class="timeline">
-        <div class="container left">
-            <div class="content">
-                <h2>105 d.C</h2>
-                <p>Invención del papel en China por Cai Lun.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2>610 d.C</h2>
-                <p>Introducción del papel en Japón.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-                <h2>751 d.C</h2>
-                <p>El arte de hacer papel se extiende a los países islámicos.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2>1150 d.C</h2>
-                <p>Primera fábrica de papel en Europa, en España.</p>
-            </div>
-        </div>
-        <!-- Más eventos -->
-    </div>
+    <div id="timeline-embed" style="width: 100%; height: 600px"></div>
 
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script>
-        document.querySelectorAll('.content h2').forEach(header => {
-            header.addEventListener('click', () => {
-                header.parentElement.classList.toggle('active');
-            });
-        });
+        var timeline_json = "/quimica/esquemapapel/timeline.json";
+        window.timeline = new TL.Timeline('timeline-embed', timeline_json);
     </script>
 </body>
 </html>
