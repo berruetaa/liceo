@@ -1,9 +1,9 @@
 {
     "title": {
         "media": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cai_Lun_Paper.jpg",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
             "caption": "Cai Lun, inventor del papel.",
-            "credit": "<a href='https://commons.wikimedia.org/wiki/File:Cai_Lun_Paper.jpg'>Wikimedia Commons</a>"
+            "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
         },
         "text": {
             "headline": "La Historia del Papel",
@@ -13,12 +13,12 @@
     "events": [
         {
             "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ts%27ai_Lun.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
                 "caption": "Cai Lun, el inventor del papel.",
-                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Ts%27ai_Lun.jpg'>Wikimedia Commons</a>"
+                "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
             },
             "start_date": {
-                "year": "-105"
+                "year": "105"
             },
             "text": {
                 "headline": "Invención del Papel por Cai Lun",
@@ -27,9 +27,9 @@
         },
         {
             "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chinese_paper_making.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Making_Paper.gif",
                 "caption": "Proceso antiguo de fabricación de papel en China.",
-                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Chinese_paper_making.jpg'>Wikimedia Commons</a>"
+                "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/5/5b/Making_Paper.gif'>Wikimedia Commons</a>"
             },
             "start_date": {
                 "year": "610"
