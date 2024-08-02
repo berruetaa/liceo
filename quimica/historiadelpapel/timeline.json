@@ -1,101 +1,244 @@
 {
-    "title": {
-      "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancient_papyrus.jpg/1024px-Ancient_papyrus.jpg",
-        "caption": "Papiro antiguo",
-        "credit": "Wikimedia Commons"
+  "events": [
+    {
+      "start_date": {
+        "year": "105"
+      },
+      "end_date": {
+        "year": "105"
       },
       "text": {
-        "headline": "Historia del papel",
-        "text": "Un recorrido por el desarrollo del papel a lo largo de los siglos."
+        "headline": "Invención del papel",
+        "text": "El papel fue inventado en China durante la dinastía Han por Cai Lun. Este proceso revolucionó la escritura y el registro de información en la historia."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Imagen del invento del papel"
       }
     },
-    "events": [
-      {
-        "start_date": {
-          "year": -3000,
-          "month": 1,
-          "day": 1
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancient_papyrus.jpg/1024px-Ancient_papyrus.jpg",
-          "caption": "Papiro egipcio",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Papiro en Egipto",
-          "text": "El papiro, fabricado a partir de la planta del mismo nombre, fue uno de los primeros materiales utilizados para escribir en el Antiguo Egipto."
-        }
+    {
+      "start_date": {
+        "year": "750"
       },
-      {
-        "start_date": {
-          "year": 105
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cai_Lun.jpg/1024px-Cai_Lun.jpg",
-          "caption": "Cai Lun, inventor del papel",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Invención del papel en China",
-          "text": "El papel tal como lo conocemos hoy en día fue inventado en China por Cai Lun, un funcionario de la corte imperial, quien desarrolló un nuevo proceso de fabricación utilizando fibras vegetales."
-        }
+      "end_date": {
+        "year": "750"
       },
-      {
-        "start_date": {
-          "year": 751
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Battle_of_Talas.jpg/1024px-Battle_of_Talas.jpg",
-          "caption": "Batalla de Talas",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Difusión del papel a Occidente",
-          "text": "La técnica de fabricación del papel se extendió a Occidente después de la Batalla de Talas, donde los chinos capturaron a prisioneros que conocían el proceso y les enseñaron a los árabes."
-        }
+      "text": {
+        "headline": "Introducción del papel en el mundo islámico",
+        "text": "El papel se introdujo en el mundo islámico en el siglo VIII, después de que los árabes capturaran a los fabricantes de papel en la batalla de Talas. Esto permitió una expansión significativa de la producción de papel en el mundo islámico."
       },
-      {
-        "start_date": {
-          "year": 1450
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gutenberg_Bible.jpg/1024px-Gutenberg_Bible.jpg",
-          "caption": "Biblia de Gutenberg",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Imprenta y papel en Europa",
-          "text": "La invención de la imprenta por Gutenberg en Europa impulsó la demanda de papel, lo que llevó a la expansión de la industria papelera en el continente."
-        }
-      },
-      {
-        "start_date": {
-          "year": 1798
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fourdrinier_machine.jpg/1024px-Fourdrinier_machine.jpg",
-          "caption": "Máquina de Fourdrinier",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Mecanización de la producción de papel",
-          "text": "La invención de la máquina de Fourdrinier permitió la producción mecanizada de papel, lo que aumentó significativamente la oferta y abaratamiento del producto."
-        }
-      },
-      {
-        "start_date": {
-          "year": 1940
-        },
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Papermaking_machine.jpg/1024px-Papermaking_machine.jpg",
-          "caption": "Máquina de fabricación de papel",
-          "credit": "Wikimedia Commons"
-        },
-        "text": {
-          "headline": "Papel de fibras recicladas",
-          "text": "La creciente preocupación por el medio ambiente impulsó el desarrollo de procesos de fabricación de papel a partir de fibras recicladas, reduciendo el impacto ambiental de la industria papelera."
-        }
+      "media": {
+        "url": "",  
+        "caption": "Expansión del papel en el mundo islámico"
       }
-    ]
-  }
+    },
+    {
+      "start_date": {
+        "year": "1041"
+      },
+      "end_date": {
+        "year": "1041"
+      },
+      "text": {
+        "headline": "Papel en Europa",
+        "text": "El papel llegó a Europa a través de los musulmanes y se empezó a fabricar en Italia y España en el siglo XI. En el siglo XIII, se establecieron las primeras fábricas de papel en Francia y Alemania."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Primera fábrica de papel en Europa"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1440"
+      },
+      "end_date": {
+        "year": "1440"
+      },
+      "text": {
+        "headline": "Invención de la imprenta",
+        "text": "Johannes Gutenberg inventó la imprenta en 1440, lo que permitió la producción masiva de libros y documentos en papel, facilitando la difusión del conocimiento."
+      },
+      "media": {
+        "url": "",  
+        "caption": "La imprenta de Gutenberg"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1799"
+      },
+      "end_date": {
+        "year": "1799"
+      },
+      "text": {
+        "headline": "Invención de la máquina de papel",
+        "text": "El inventor francés Nicolas-Louis Robert patentó una máquina de papel en 1799, lo que revolucionó la producción de papel al permitir su fabricación en rollos continuos en lugar de hojas individuales."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Máquina de papel de Robert"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1850"
+      },
+      "end_date": {
+        "year": "1850"
+      },
+      "text": {
+        "headline": "Desarrollo del papel reciclado",
+        "text": "El papel reciclado comenzó a ser utilizado en el siglo XIX, impulsado por la necesidad de conservar recursos y reducir el desperdicio. Este proceso ha evolucionado con el tiempo para mejorar la calidad y la eficiencia del reciclaje."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Proceso de reciclaje del papel"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1900"
+      },
+      "end_date": {
+        "year": "1900"
+      },
+      "text": {
+        "headline": "Desarrollo de papel ácido y libre de ácido",
+        "text": "A principios del siglo XX, se desarrolló el papel libre de ácido, que es menos propenso a deteriorarse con el tiempo en comparación con el papel ácido que se había utilizado anteriormente."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Papel libre de ácido"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1950"
+      },
+      "end_date": {
+        "year": "1950"
+      },
+      "text": {
+        "headline": "Invención del papel reciclado moderno",
+        "text": "A mediados del siglo XX, se perfeccionaron las técnicas de reciclaje del papel, permitiendo una mayor eficiencia y calidad en el papel reciclado utilizado en diversas aplicaciones."
+      },
+      "media": {
+        "url": "",  
+        "caption": "Proceso moderno de reciclaje de papel"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1800"
+      },
+      "end_date": {
+        "year": "1900"
+      },
+      "text": {
+        "headline": "Historia del papel en Uruguay",
+        "text": "La fabricación de papel en Uruguay comenzó en el siglo XIX, con la creación de la primera fábrica de papel en 1837. A lo largo de los años, la industria del papel en Uruguay ha evolucionado, incluyendo la producción de papel reciclado y la exportación de productos derivados del papel."
+      },
+      "media": {
+        "url": "",
+        "caption": "Primera fábrica de papel en Uruguay"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1900"
+      },
+      "end_date": {
+        "year": "1950"
+      },
+      "text": {
+        "headline": "Avances en la producción de papel en Uruguay",
+        "text": "Durante el siglo XX, Uruguay experimentó avances significativos en la producción de papel, incluyendo la implementación de nuevas tecnologías y prácticas más sostenibles en la industria del papel."
+      },
+      "media": {
+        "url": "",
+        "caption": "Progreso en la industria del papel en Uruguay"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1950"
+      },
+      "end_date": {
+        "year": "2020"
+      },
+      "text": {
+        "headline": "Papel reciclado y sostenibilidad en Uruguay",
+        "text": "Desde mediados del siglo XX hasta el presente, Uruguay ha hecho esfuerzos significativos para promover la producción de papel reciclado y adoptar prácticas sostenibles en la industria del papel."
+      },
+      "media": {
+        "url": "", 
+        "caption": "Papel reciclado en Uruguay"
+      }
+    },
+    {
+      "start_date": {
+        "year": "2000"
+      },
+      "end_date": {
+        "year": "2024"
+      },
+      "text": {
+        "headline": "Innovaciones recientes en la producción de papel",
+        "text": "En el siglo XXI, la industria del papel ha visto innovaciones en términos de sostenibilidad, tecnologías de producción, y papel especial como el papel electrónico y biodegradable."
+      },
+      "media": {
+        "url": "",
+        "caption": "Innovaciones recientes en papel"
+      }
+    },
+    {
+      "start_date": {
+        "year": "2024"
+      },
+      "end_date": {
+        "year": "2024"
+      },
+      "text": {
+        "headline": "Estado actual de la industria del papel",
+        "text": "En la actualidad, la industria del papel sigue evolucionando con un enfoque en la sostenibilidad, la digitalización y la adaptación a las nuevas necesidades del mercado."
+      },
+      "media": {
+        "url": "https://img.interempresas.net/A/A875/3310494.webp",
+        "caption": "Producción de papel en España 2017-2021, en miles de toneladas. Fuente: Aspapel."
+      }
+    },
+    {
+      "start_date": {
+        "year": "105"
+      },
+      "end_date": {
+        "year": "105"
+      },
+      "text": {
+        "headline": "Composición química del papel",
+        "text": "El papel está compuesto principalmente de celulosa, que es un polisacárido natural obtenido de la pulpa de madera. La celulosa forma una red estructural en el papel que le proporciona resistencia y flexibilidad."
+      },
+      "media": {
+        "url": "/quimica/historiadelpapel/composiciondelpapel.jpg", 
+        "caption": "Composición química del papel"
+      }
+    },
+    {
+      "start_date": {
+        "year": "105"
+      },
+      "end_date": {
+        "year": "105"
+      },
+      "text": {
+        "headline": "Estructura de la celulosa",
+        "text": "La celulosa es un polímero lineal compuesto por unidades de glucosa unidas por enlaces beta-1,4-glucosídicos. Esta estructura lineal forma fibras largas y delgadas que se entrelazan para formar la red de fibras en el papel."
+      },
+      "media": {
+        "url": "https://www.researchgate.net/profile/Mary-Cesare-Coral/publication/338213960/figure/fig2/AS:841118841311234@1577549767878/Estructura-de-la-celulosa.jpg",
+        "caption": "Estructura de la celulosa"
+      }
+    }
+  ]
+}
