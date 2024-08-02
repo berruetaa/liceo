@@ -186,7 +186,7 @@
           "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pulp_and_paper_making_in_China%2C_17th_century.jpg/1280px-Pulp_and_paper_making_in_China%2C_17th_century.jpg'>Wikimedia Commons</a>"
         },
         "start_date": {
-          "display-date": "Siglo 17",
+          "display_date": "Siglo XVII",
           "year": "1601"
         },
         "text": {
