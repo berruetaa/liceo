@@ -16,13 +16,11 @@
           "caption": "Papiro Egipcio"
         },
         "start_date": {
-          "year": "3000",
-          "month": "01",
-          "day": "01"
+          "year": "-3000"
         },
         "text": {
           "headline": "Uso del Papiro en Egipto",
-          "text": "El papiro, hecho de la planta de papiro, se usaba en el antiguo Egipto como una superficie de escritura mucho antes de la invención del papel."
+          "text": "El papiro, hecho de la planta de papiro, se usaba en el antiguo Egipto como una superficie de escritura mucho antes de la invención del papel. Se utilizaba para registrar información importante, incluyendo textos religiosos y administrativos."
         }
       },
       {
@@ -31,13 +29,11 @@
           "caption": "Retrato de Cai Lun"
         },
         "start_date": {
-          "year": "105",
-          "month": "01",
-          "day": "01"
+          "year": "105"
         },
         "text": {
           "headline": "Invención del Papel por Cai Lun",
-          "text": "Cai Lun, un oficial de la corte china, es tradicionalmente acreditado con la invención del papel tal como lo conocemos hoy, utilizando fibras de plantas como la morera."
+          "text": "Cai Lun, un oficial de la corte china, es tradicionalmente acreditado con la invención del papel tal como lo conocemos hoy. Utilizó una mezcla de corteza de morera, trapos de tela y redes de pesca para crear un material duradero y flexible."
         }
       },
       {
@@ -46,13 +42,11 @@
           "caption": "Códice Mexicano"
         },
         "start_date": {
-          "year": "500",
-          "month": "01",
-          "day": "01"
+          "year": "500"
         },
         "text": {
           "headline": "Papel Amate en Mesoamérica",
-          "text": "En Mesoamérica, los pueblos indígenas ya estaban utilizando el papel amate, hecho de corteza de árbol, para crear códices y otros documentos."
+          "text": "En Mesoamérica, los pueblos indígenas utilizaban el papel amate, hecho de corteza de árbol, para crear códices y otros documentos. Este papel era una parte esencial de sus prácticas culturales y religiosas."
         }
       },
       {
@@ -61,13 +55,11 @@
           "caption": "Ornamentación de la Gran Mezquita de Damasco"
         },
         "start_date": {
-          "year": "751",
-          "month": "01",
-          "day": "01"
+          "year": "751"
         },
         "text": {
           "headline": "Batalla de Talas y Difusión del Papel",
-          "text": "La técnica de fabricación de papel se extendió hacia el oeste después de la Batalla de Talas, donde los árabes capturaron prisioneros chinos que conocían el secreto del papel."
+          "text": "La técnica de fabricación de papel se extendió hacia el oeste después de la Batalla de Talas, donde los árabes capturaron prisioneros chinos que conocían el secreto del papel. Esto marcó el comienzo de la difusión del papel en el mundo islámico y más allá."
         }
       },
       {
@@ -76,13 +68,11 @@
           "caption": "Biblia de Gutenberg"
         },
         "start_date": {
-          "year": "1450",
-          "month": "01",
-          "day": "01"
+          "year": "1450"
         },
         "text": {
           "headline": "Invención de la Imprenta",
-          "text": "La invención de la imprenta por Johannes Gutenberg en Europa impulsó la demanda de papel como medio para la impresión de libros, lo que llevó a una mayor producción y refinamiento de la tecnología del papel."
+          "text": "La invención de la imprenta por Johannes Gutenberg en Europa impulsó la demanda de papel como medio para la impresión de libros. Esto llevó a una mayor producción y refinamiento de la tecnología del papel, haciendo posible la difusión masiva del conocimiento."
         }
       },
       {
@@ -91,13 +81,11 @@
           "caption": "Periódico Francés del siglo XVIII"
         },
         "start_date": {
-          "year": "1798",
-          "month": "01",
-          "day": "01"
+          "year": "1798"
         },
         "text": {
           "headline": "Invención de la Máquina de Papel de Fourdrinier",
-          "text": "Nicolas-Louis Robert inventó la primera máquina de papel continua en 1798, lo que permitió la producción en masa de papel y revolucionó la industria papelera."
+          "text": "Nicolas-Louis Robert inventó la primera máquina de papel continua en 1798, lo que permitió la producción en masa de papel y revolucionó la industria papelera. La máquina Fourdrinier mejoró y popularizó esta tecnología."
         }
       },
       {
@@ -106,13 +94,11 @@
           "caption": "Mapa de Internet"
         },
         "start_date": {
-          "year": "1980",
-          "month": "01",
-          "day": "01"
+          "year": "1980"
         },
         "text": {
           "headline": "Era Digital y el Papel",
-          "text": "Con la llegada de la era digital en el siglo XX, el papel comenzó a competir con formatos electrónicos. A pesar de esto, el papel sigue siendo ampliamente utilizado en muchas áreas de la vida cotidiana."
+          "text": "Con la llegada de la era digital en el siglo XX, el papel comenzó a competir con formatos electrónicos. A pesar de esto, el papel sigue siendo ampliamente utilizado en muchas áreas de la vida cotidiana, desde la impresión de libros hasta el embalaje y la higiene personal."
         }
       }
     ]
