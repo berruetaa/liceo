@@ -13,16 +13,16 @@
   "events": [
     {
       "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
+        "url": "https://historia.nationalgeographic.com.es/medio/2023/01/03/imagen-de-la-planta-del-papiro-cyperus-papyrus_4c9626fe_230103110437_800x1067.jpg",
+        "caption": "Planta del papiro",
+        "credit": "Fernando de Gorocica (CC BY-SA 4.0) [National Geographic]"
       },
       "start_date": {
         "year": "-3000"
       },
       "text": {
-        "headline": "3000 a.C. – Los egipcios dominaron el arte de crear papel de papiro",
-        "text": "<p>Los antiguos egipcios desarrollaron una técnica para fabricar papel usando el tallo de la planta de papiro.</p>"
+        "headline": "Los egipcios dominaron el arte de crear papel de papiro",
+        "text": "<p>Los antiguos egipcios desarrollaron una técnica para fabricar papel usando el tallo de la planta de papiro. <small><i>Fuente: <a href=\"https://historia.nationalgeographic.com.es/medio/2023/01/03/imagen-de-la-planta-del-papiro-cyperus-papyrus_4c9626fe_230103110437_800x1067.jpg\" target=\"_blank\">National Geographic</a></i></small></p>"
       }
     },
     {
