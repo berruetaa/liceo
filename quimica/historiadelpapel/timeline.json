@@ -1,244 +1,253 @@
 {
+  "title": {
+    "media": {
+      "url": "http://example.com/image.jpg",
+      "caption": "Una representación artística de la fabricación de papel en la antigüedad",
+      "credit": "Fuente: Biblioteca Nacional"
+    },
+    "text": {
+      "headline": "Línea de Tiempo de la Historia del Papel y la Fabricación de Papel",
+      "text": "Un recorrido histórico desde la invención del papel hasta los avances modernos en su producción."
+    }
+  },
   "events": [
     {
       "start_date": {
-        "year": "105"
+        "year": -3000
       },
-      "end_date": {
-        "year": "105"
-      },
-      "text": {
-        "headline": "Invención del papel",
-        "text": "El papel fue inventado en China durante la dinastía Han por Cai Lun. Este proceso revolucionó la escritura y el registro de información en la historia."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Imagen del invento del papel"
-      }
+      "headline": "Los egipcios dominan el arte de crear papel de papiro",
+      "text": "El papiro se convierte en el primer soporte para escritura conocido en la historia."
     },
     {
       "start_date": {
-        "year": "750"
+        "year": -2450
       },
-      "end_date": {
-        "year": "750"
-      },
-      "text": {
-        "headline": "Introducción del papel en el mundo islámico",
-        "text": "El papel se introdujo en el mundo islámico en el siglo VIII, después de que los árabes capturaran a los fabricantes de papel en la batalla de Talas. Esto permitió una expansión significativa de la producción de papel en el mundo islámico."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Expansión del papel en el mundo islámico"
-      }
+      "headline": "Primer registro de procesamiento de pieles de animales en pergamino",
+      "text": "Se encuentra el registro más antiguo sobre el uso de pieles para fabricar pergamino."
     },
     {
       "start_date": {
-        "year": "1041"
+        "year": -2200
       },
-      "end_date": {
-        "year": "1041"
-      },
-      "text": {
-        "headline": "Papel en Europa",
-        "text": "El papel llegó a Europa a través de los musulmanes y se empezó a fabricar en Italia y España en el siglo XI. En el siglo XIII, se establecieron las primeras fábricas de papel en Francia y Alemania."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Primera fábrica de papel en Europa"
-      }
+      "headline": "Registro más antiguo de papiro egipcio",
+      "text": "El papiro egipcio se empieza a utilizar como soporte para la escritura en Egipto."
     },
     {
       "start_date": {
-        "year": "1440"
+        "year": -200
       },
-      "end_date": {
-        "year": "1440"
-      },
-      "text": {
-        "headline": "Invención de la imprenta",
-        "text": "Johannes Gutenberg inventó la imprenta en 1440, lo que permitió la producción masiva de libros y documentos en papel, facilitando la difusión del conocimiento."
-      },
-      "media": {
-        "url": "",  
-        "caption": "La imprenta de Gutenberg"
-      }
+      "headline": "Primera fabricación de pergamino en la China antigua",
+      "text": "La producción de pergamino se documenta en Pergamon (Asia Menor)."
     },
     {
       "start_date": {
-        "year": "1799"
+        "year": -150
       },
-      "end_date": {
-        "year": "1799"
-      },
-      "text": {
-        "headline": "Invención de la máquina de papel",
-        "text": "El inventor francés Nicolas-Louis Robert patentó una máquina de papel en 1799, lo que revolucionó la producción de papel al permitir su fabricación en rollos continuos en lugar de hojas individuales."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Máquina de papel de Robert"
-      }
+      "headline": "Inicio de la producción organizada de papel en China",
+      "text": "Se empieza a producir papel a partir de fibras de cáñamo maceradas, redes viejas, corteza de plantas y agua."
     },
     {
       "start_date": {
-        "year": "1850"
+        "year": -149
       },
-      "end_date": {
-        "year": "1850"
-      },
-      "text": {
-        "headline": "Desarrollo del papel reciclado",
-        "text": "El papel reciclado comenzó a ser utilizado en el siglo XIX, impulsado por la necesidad de conservar recursos y reducir el desperdicio. Este proceso ha evolucionado con el tiempo para mejorar la calidad y la eficiencia del reciclaje."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Proceso de reciclaje del papel"
-      }
+      "headline": "Primera producción de un diccionario en China",
+      "text": "Hu Shin crea el primer diccionario chino, que contiene alrededor de 10 mil caracteres."
     },
     {
       "start_date": {
-        "year": "1900"
+        "year": 105
       },
-      "end_date": {
-        "year": "1900"
-      },
-      "text": {
-        "headline": "Desarrollo de papel ácido y libre de ácido",
-        "text": "A principios del siglo XX, se desarrolló el papel libre de ácido, que es menos propenso a deteriorarse con el tiempo en comparación con el papel ácido que se había utilizado anteriormente."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Papel libre de ácido"
-      }
+      "headline": "Primer registro escrito sobre el proceso de fabricación de papel",
+      "text": "Ts'ai Lun de China documenta el proceso, cuyas directrices se seguirán durante siglos."
     },
     {
       "start_date": {
-        "year": "1950"
+        "year": 250
       },
-      "end_date": {
-        "year": "1950"
-      },
-      "text": {
-        "headline": "Invención del papel reciclado moderno",
-        "text": "A mediados del siglo XX, se perfeccionaron las técnicas de reciclaje del papel, permitiendo una mayor eficiencia y calidad en el papel reciclado utilizado en diversas aplicaciones."
-      },
-      "media": {
-        "url": "",  
-        "caption": "Proceso moderno de reciclaje de papel"
-      }
+      "headline": "Primer libro sobre álgebra",
+      "text": "Diophantus de Alejandría escribe el primer libro sobre álgebra."
     },
     {
       "start_date": {
-        "year": "1800"
+        "year": 500
       },
-      "end_date": {
-        "year": "1900"
-      },
-      "text": {
-        "headline": "Historia del papel en Uruguay",
-        "text": "La fabricación de papel en Uruguay comenzó en el siglo XIX, con la creación de la primera fábrica de papel en 1837. A lo largo de los años, la industria del papel en Uruguay ha evolucionado, incluyendo la producción de papel reciclado y la exportación de productos derivados del papel."
-      },
-      "media": {
-        "url": "",
-        "caption": "Primera fábrica de papel en Uruguay"
-      }
+      "headline": "Los mayas utilizan papel hecho de corteza de árbol",
+      "text": "El papel se usa en la civilización maya, hecho a partir de corteza de árbol."
     },
     {
       "start_date": {
-        "year": "1900"
+        "year": 610
       },
-      "end_date": {
-        "year": "1950"
-      },
-      "text": {
-        "headline": "Avances en la producción de papel en Uruguay",
-        "text": "Durante el siglo XX, Uruguay experimentó avances significativos en la producción de papel, incluyendo la implementación de nuevas tecnologías y prácticas más sostenibles en la industria del papel."
-      },
-      "media": {
-        "url": "",
-        "caption": "Progreso en la industria del papel en Uruguay"
-      }
+      "headline": "El papel llega a Japón",
+      "text": "El papel empieza a ser fabricado en Japón tras su introducción desde China."
     },
     {
       "start_date": {
-        "year": "1950"
+        "year": 707
       },
-      "end_date": {
-        "year": "2020"
-      },
-      "text": {
-        "headline": "Papel reciclado y sostenibilidad en Uruguay",
-        "text": "Desde mediados del siglo XX hasta el presente, Uruguay ha hecho esfuerzos significativos para promover la producción de papel reciclado y adoptar prácticas sostenibles en la industria del papel."
-      },
-      "media": {
-        "url": "", 
-        "caption": "Papel reciclado en Uruguay"
-      }
+      "headline": "Papel chino se utiliza en La Meca",
+      "text": "El papel importado de China comienza a ser usado en La Meca."
     },
     {
       "start_date": {
-        "year": "2000"
+        "year": 748
       },
-      "end_date": {
-        "year": "2024"
-      },
-      "text": {
-        "headline": "Innovaciones recientes en la producción de papel",
-        "text": "En el siglo XXI, la industria del papel ha visto innovaciones en términos de sostenibilidad, tecnologías de producción, y papel especial como el papel electrónico y biodegradable."
-      },
-      "media": {
-        "url": "",
-        "caption": "Innovaciones recientes en papel"
-      }
+      "headline": "Aparece el primer periódico impreso en Pekín",
+      "text": "Pekín publica el primer periódico impreso."
     },
     {
       "start_date": {
-        "year": "2024"
+        "year": 751
       },
-      "end_date": {
-        "year": "2024"
-      },
-      "text": {
-        "headline": "Estado actual de la industria del papel",
-        "text": "En la actualidad, la industria del papel sigue evolucionando con un enfoque en la sostenibilidad, la digitalización y la adaptación a las nuevas necesidades del mercado."
-      },
-      "media": {
-        "url": "https://img.interempresas.net/A/A875/3310494.webp",
-        "caption": "Producción de papel en España 2017-2021, en miles de toneladas. Fuente: Aspapel."
-      }
+      "headline": "Los árabes comienzan a producir papel",
+      "text": "Los árabes aprenden la receta del papel de los prisioneros chinos y empiezan a producirlo."
     },
     {
       "start_date": {
-        "year": "105"
+        "year": 868
       },
-      "end_date": {
-        "year": "105"
-      },
-      "text": {
-        "headline": "Composición química del papel",
-        "text": "El papel está compuesto principalmente de celulosa, que es un polisacárido natural obtenido de la pulpa de madera. La celulosa forma una red estructural en el papel que le proporciona resistencia y flexibilidad."
-      },
-      "media": {
-        "url": "/quimica/historiadelpapel/composiciondelpapel.jpg", 
-        "caption": "Composición química del papel"
-      }
+      "headline": "Uno de los primeros libros impresos: Sutra del Diamante",
+      "text": "Wang Chieh produce el Sutra del Diamante, un rollo de 16 pies de largo."
     },
     {
       "start_date": {
-        "year": "105"
+        "year": 875
       },
-      "end_date": {
-        "year": "105"
+      "headline": "El primer uso de papel higiénico en China",
+      "text": "Se documenta el uso de papel higiénico en China."
+    },
+    {
+      "start_date": {
+        "year": 800
       },
-      "text": {
-        "headline": "Estructura de la celulosa",
-        "text": "La celulosa es un polímero lineal compuesto por unidades de glucosa unidas por enlaces beta-1,4-glucosídicos. Esta estructura lineal forma fibras largas y delgadas que se entrelazan para formar la red de fibras en el papel."
+      "headline": "El papel es usado y producido en Egipto",
+      "text": "El papel se utiliza y se produce en Egipto durante este período."
+    },
+    {
+      "start_date": {
+        "year": 969
       },
-      "media": {
-        "url": "https://www.researchgate.net/profile/Mary-Cesare-Coral/publication/338213960/figure/fig2/AS:841118841311234@1577549767878/Estructura-de-la-celulosa.jpg",
-        "caption": "Estructura de la celulosa"
-      }
+      "headline": "Primera aparición de cartas de juego en China",
+      "text": "Las cartas de juego se mencionan por primera vez en China."
+    },
+    {
+      "start_date": {
+        "year": 1035
+      },
+      "headline": "Referencia a empaques de papel en el diario de Nasiri Khosrau",
+      "text": "Nasiri Khosrau observa a vendedores de alimentos en El Cairo empaquetando productos en papel."
+    },
+    {
+      "start_date": {
+        "year": 1040
+      },
+      "headline": "Invención de tipos móviles por Bi Sheng",
+      "text": "Bi Sheng crea el primer tipo móvil durante la Dinastía Song en China."
+    },
+    {
+      "start_date": {
+        "year": 1109
+      },
+      "headline": "Primer manuscrito europeo en papel",
+      "text": "Se encuentra el manuscrito más antiguo en Europa, una escritura en árabe y griego del rey Roger."
+    },
+    {
+      "start_date": {
+        "year": 1151
+      },
+      "headline": "Inicio de la fabricación de papel en Europa",
+      "text": "El proceso de fabricación de papel comienza en Europa."
+    },
+    {
+      "start_date": {
+        "year": 1282
+      },
+      "headline": "Uso de marcas de agua en Italia",
+      "text": "Italia comienza a usar marcas de agua en el papel."
+    },
+    {
+      "start_date": {
+        "year": 1450
+      },
+      "headline": "Primera impresión de la Biblia por Gutenberg",
+      "text": "Gutenberg imprime la primera Biblia utilizando una prensa de tipos móviles."
+    },
+    {
+      "start_date": {
+        "year": 1495
+      },
+      "headline": "Primera fábrica de papel establecida en Inglaterra",
+      "text": "Se establece la primera fábrica de papel en Inglaterra."
+    },
+    {
+      "start_date": {
+        "year": 1549
+      },
+      "headline": "Incendio de la biblioteca maya",
+      "text": "Los españoles queman la biblioteca de textos antiguos de los mayas."
+    },
+    {
+      "start_date": {
+        "year": 1636
+      },
+      "headline": "Riesgo de peste asociado a trapos de lino y algodón",
+      "text": "Se culpa a los trapos de lino y algodón importados por las fábricas de papel de propagar la peste."
+    },
+    {
+      "start_date": {
+        "year": 1690
+      },
+      "headline": "Primera fábrica de papel en los EE.UU.",
+      "text": "Se establece la primera fábrica de papel en los Estados Unidos."
+    },
+    {
+      "start_date": {
+        "year": 1705
+      },
+      "headline": "Primer periódico estadounidense - Boston News Letter",
+      "text": "Se publica el primer periódico en los Estados Unidos."
+    },
+    {
+      "start_date": {
+        "year": 1798
+      },
+      "headline": "Creación de la máquina de papel por N.L. Robert",
+      "text": "N.L. Robert inventa la primera máquina para la producción de papel."
+    },
+    {
+      "start_date": {
+        "year": 1804
+      },
+      "headline": "Primer libro impreso en papel hecho a máquina",
+      "text": "Se imprime el primer libro usando papel fabricado a máquina."
+    },
+    {
+      "start_date": {
+        "year": 1806
+      },
+      "headline": "Patente de la máquina Fourdrinier",
+      "text": "Se patenta la máquina Fourdrinier, un avance crucial en la producción de papel."
+    },
+    {
+      "start_date": {
+        "year": 1844
+      },
+      "headline": "Producción de papel a partir de madera triturada",
+      "text": "Se empieza a producir papel utilizando madera triturada como materia prima."
+    },
+    {
+      "start_date": {
+        "year": 1854
+      },
+      "headline": "Papel hecho de fibras de celulosa con soda cáustica",
+      "text": "Se inicia la fabricación de papel a partir de fibras de celulosa extraídas de la madera con soda cáustica."
+    },
+    {
+      "start_date": {
+        "year": 1863
+      },
+      "headline": "Primer periódico creado con papel de 'madera molida'",
+      "text": "Se publica el primer periódico hecho con papel fabricado a partir de madera molida."
     }
   ]
 }
