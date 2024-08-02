@@ -7,7 +7,7 @@
     },
     "text": {
       "headline": "Línea de Tiempo del Papel y la Fabricación de Papel",
-      "text": "<p>Una cronología detallada de los eventos más importantes en la historia del papel y su fabricación.<p/> <small><i>Fuente principal del documento: <a href=\"http://www.historyofpaper.net/paper-history/timeline-of-paper/\" target=\"_blank\">History of Paper</a></i></small></p>"
+      "text": "<p style=\"font-size: 110%;\">Una cronología detallada de los eventos más importantes en la historia del papel y su fabricación.<p/> <p><small style=\"font-size: 90%;\"><span style=\"color:black; font-weight: bold;\">Aclaración:</span> <span style=\"color:blue; font-style: italic;\">a. e. c.</span> refiere a &quot;antes de la era común&quot; y <span style=\"color:blue; font-style: italic;\">e. c.</span> a &quot;era común&quot;, ambos son equivalentes a decir &quot;antes de Cristo&quot; y &quot;después de Cristo&quot;, respectivamente.</small></p> <small><i>Fuente principal del documento: <a href=\"http://www.historyofpaper.net/paper-history/timeline-of-paper/\" target=\"_blank\">History of Paper</a></i></small></p>"
     }
   },
   "events": [
@@ -36,7 +36,7 @@
       },
       "text": {
         "headline": "Perfeccionamiento del pergamino en Pérgamo (ciudad de la antigua Grecia)",
-        "text": "<p>El pergamino, desarrollado en Pérgamo en el siglo II a.C. bajo el reinado de Eumenes II, revolucionó la escritura al sustituir al papiro. Aunque no se inventó en Pérgamo, allí se perfeccionó y se convirtió en el antecesor pricipal del papel. La escasez de papiro y el auge cultural de Pérgamo, con su destacada biblioteca (competía con la de Alejandría), impulsaron su popularidad. El pergamino se distinguía por ser más liso, firme y maleable que el papiro.</p> <small><i>Fuente: <a href=\"https://palabras.com.ar/pergamo-y-la-conquista-de-la-cultura/\" target=\"_blank\">PALABRAS</a></i></small></p>"
+        "text": "<p>El pergamino, desarrollado en Pérgamo en el siglo II a. e. c. bajo el reinado de Eumenes II, revolucionó la escritura al sustituir al papiro. Aunque no se inventó en Pérgamo, allí se perfeccionó y se convirtió en el antecesor pricipal del papel. La escasez de papiro y el auge cultural de Pérgamo, con su destacada biblioteca (competía con la de Alejandría), impulsaron su popularidad. El pergamino se distinguía por ser más liso, firme y maleable que el papiro.</p> <small><i>Fuente: <a href=\"https://palabras.com.ar/pergamo-y-la-conquista-de-la-cultura/\" target=\"_blank\">PALABRAS</a></i></small></p>"
       }
     },
     {
@@ -50,393 +50,247 @@
       },
       "text": {
         "headline": "Comienza la primera producción organizada de papel en China",
-        "text": "<p>El primer papel se hizo en China en el año 105 d.C. usando fibras de cáñamo maceradas, redes de pesca viejas, corteza de plantas y agua. El proceso de fabricación de papel fue inventado por Ts'ai Lun, un funcionario de la corte imperial china. El papel se fabricaba a partir de trapos viejos, corteza de árboles y redes de pesca. El papel más antiguo que se ha encontrado hasta la fecha, que pertenecía a un mapa, fue descubierto en 1986 en Fangmatan, en el noreste de China.</p> <small><i>Fuente: <a href=\"https://www.pixartprinting.co.uk/blog/history-paper/\" target=\"_blank\">Pixartprinting</a></i></small></p>"
+        "text": "<p>El primer papel \"moderno\" se hizo en China en el año 105 e. c. usando fibras de cáñamo maceradas, redes de pesca viejas, corteza de plantas y agua. El proceso de fabricación de papel fue inventado por Ts'ai Lun, un funcionario de la corte imperial china. El papel se fabricaba a partir de trapos viejos, corteza de árboles y redes de pesca. El papel más antiguo que se ha encontrado hasta la fecha, que pertenecía a un mapa, fue descubierto en 1986 en Fangmatan, en el noreste de China. Se estima que se hizo en el año 160 e. c.</p> <small><i>Fuente: <a href=\"https://www.pixartprinting.co.uk/blog/history-paper/\" target=\"_blank\">Pixartprinting</a></i></small></p>"
       }
     },
     {
       "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "250"
-      },
-      "text": {
-        "headline": "250 d.C. – Primer libro sobre álgebra escrito por Diofanto de Alejandría",
-        "text": "<p>Diofanto de Alejandría escribió el primer libro sobre álgebra, titulado  <i>Arithmetica</i>, que constaba de trece libros, de los cuales solo se conservan seis. En esta obra, Diofanto presenta tres tipos de ecuaciones de segundo grado y una colección de problemas de ecuaciones con variables que toman valores racionales. Estas ecuaciones pasaron a llamarse ecuaciones diofánticas y tienen un valor muy importante en el estudio de las matemáticas. Diofanto es considerado el padre del álgebra por sus obras y sus aportes a esta ciencia de los números.</p> <small><i>Fuente: <a href=\"https://es.wikipedia.org/wiki/Diofanto_de_Alejandr%C3%ADa\" target=\"_blank\">Wikipedia</a>, <a href=\"https://www.euston96.com/diofanto-de-alejandria/\" target=\"_blank\">Euston96.com</a></i></small></p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
+        "url": "https://www.ucm.es/quidestliber/file/papel-amate.-poner-en-pie-codice-troana-cortesiano-1250-1500.-museo-de-america?ver=n",
+        "caption": "Códice Tro-Cortesiano, 1250-1500. Museo de América <p><small>Por códices nos referimos a los manuscritos, documentos o libros prehispánicos y coloniales que fueron producidos en Mesoamérica y en la Nueva España hasta el siglo XVIII.<small/><p/>",
+        "credit": "www.ucm.es"
       },
       "start_date": {
         "year": "500"
       },
       "text": {
-        "headline": "500 d.C. – Los mayas usaron papel creado a partir de cortezas de árboles",
-        "text": "<p>Los mayas fabricaron y usaron papel hecho de cortezas de árboles.</p>"
+        "headline": "Los mayas usaron papel creado a partir de cortezas de árboles",
+        "text": "<p>Los mayas fabricaron y usaron papel hecho de cortezas de árboles, conocido como <i>amatl</i>. Este papel era utilizado principalmente para la creación de códices, que contenían información valiosa sobre historia, astronomía, religión, y comercio. Los escribas mayas, figuras altamente respetadas en la sociedad, utilizaban tintas naturales hechas de minerales y plantas para escribir sobre estos materiales. A través de un proceso especializado, la corteza de los árboles de higuera era cortada, remojada, y golpeada hasta formar hojas delgadas, las cuales eran luego pegadas para formar largas tiras que se plegaban en forma de acordeón. Este material, a pesar de ser frágil, ha logrado perdurar en el tiempo, permitiéndonos vislumbrar el complejo mundo de los mayas.</p> <small><i>Fuente: <a href=\"https://hdl.handle.net/20.500.14352/47763\" target=\"_blank\">Tesis de Maya Moreno, Rubén</a></i></small></p>"
       }
     },
     {
       "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "610"
-      },
-      "text": {
-        "headline": "610 d.C. – El papel llegó y comenzó a ser fabricado en Japón",
-        "text": "<p>El papel se introdujo y comenzó a ser producido en Japón.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "707"
-      },
-      "text": {
-        "headline": "707 d.C. – El papel chino importado comenzó a ser utilizado en La Meca",
-        "text": "<p>El papel importado de China comenzó a ser usado en La Meca.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "748"
-      },
-      "text": {
-        "headline": "748 d.C. – Apareció el primer periódico impreso en Pekín",
-        "text": "<p>El primer periódico impreso apareció en Pekín.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
+        "url": "https://lonelyplanetes.cdnstatics2.com/sites/default/files/inline-images/uzbekistan_samarcanda_rutadelaseda_registan_shutterstockrf_1289559982_mehmeto_shutterstock.jpg",
+        "caption": "El Registán, en Samarcanda, fue el centro del comercio de la Ruta de la Seda durante siglos.",
+        "credit": "© MehmetO / Shutterstock"
       },
       "start_date": {
         "year": "751"
       },
       "text": {
-        "headline": "751 d.C. – Los árabes comenzaron a producir papel después de aprender la receta de prisioneros chinos",
-        "text": "<p>Los árabes empezaron a producir papel después de aprender la técnica de prisioneros chinos.</p>"
+        "headline": "La tecnología de fabricación de papel se transfiere a la región islámica",
+        "text": "<p>La fabricación de papel se transfirió al mundo islámico tras la batalla del río Talas, donde los chinos fueron derrotados por los musulmanes. Esta victoria permitió a los musulmanes capturar prisioneros chinos que conocían las técnicas de fabricación de papel. La introducción del papel en el mundo islámico tuvo un impacto profundo en la cultura y la ciencia, facilitando la copia y difusión de textos científicos, filosóficos y literarios. El papel se convirtió en un catalizador para el florecimiento de la ciencia y la cultura durante la Edad de Oro del Islam, y las técnicas de producción se mejoraron en ciudades como Bagdad y Damasco.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/Battle_of_Talas\" target=\"_blank\">Wikipedia</a>, <a href=\"https://www.khanacademy.org/humanities/world-history/medieval-times/islamic-caliphates/a/the-spread-of-islamic-culture\" target=\"_blank\">Khan Academy</a></i></small></p>"
       }
     },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "868"
-      },
-      "text": {
-        "headline": "868 d.C. – Una de las primeras obras impresas fue el Sutra del Diamante por Wang Chieh",
-        "text": "<p>El Sutra del Diamante, impreso por Wang Chieh, es uno de los libros más antiguos impresos y mide 16 pies de largo.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "875"
-      },
-      "text": {
-        "headline": "875 d.C. – El papel higiénico fue utilizado en China",
-        "text": "<p>El uso del papel higiénico fue documentado en China.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "800"
-      },
-      "text": {
-        "headline": "800 d.C. – El papel comenzó a ser utilizado y producido en Egipto",
-        "text": "<p>El uso y la producción de papel se introdujeron en Egipto.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "969"
-      },
-      "text": {
-        "headline": "969 d.C. – Primera aparición de cartas de juego en China",
-        "text": "<p>Las cartas de juego aparecieron por primera vez en China.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1035"
-      },
-      "text": {
-        "headline": "1035 d.C. – Primera referencia registrada del uso de papel para embalaje",
-        "text": "<p>El viajero persa Nasiri Khosrau documentó cómo los vendedores de comida en El Cairo usaban papel para empacar sus productos.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1040"
-      },
-      "text": {
-        "headline": "1040 d.C. – El inventor chino Bi Sheng creó el primer tipo móvil durante la Dinastía Song",
-        "text": "<p>Bi Sheng inventó el primer tipo móvil que revolucionó la impresión durante la Dinastía Song.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1109"
-      },
-      "text": {
-        "headline": "1109 d.C. – El manuscrito de papel europeo más antiguo: escritura del rey Roger",
-        "text": "<p>El documento más antiguo en papel europeo fue una escritura del rey Roger escrita en árabe y griego.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1151"
-      },
-      "text": {
-        "headline": "1151 d.C. – El papel empezó a ser fabricado en Europa",
-        "text": "<p>La fabricación de papel comenzó en Europa en el siglo XII.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1282"
-      },
-      "text": {
-        "headline": "1282 d.C. – Los filigranas empezaron a ser utilizados en Italia",
-        "text": "<p>Las primeras marcas de agua aparecieron en Italia para identificar el origen del papel.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1450",
-        "month": "01",
-        "day": "01"
-      },
-      "end_date": {
-        "year": "1455",
-        "month": "12",
-        "day": "31"
-      },
-      "text": {
-        "headline": "1450-55 d.C. – Gutenberg imprimió la primera biblia con una máquina de impresión de tipos móviles",
-        "text": "<p>Johannes Gutenberg desarrolló la imprenta de tipos móviles y produjo la primera biblia impresa.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1495"
-      },
-      "text": {
-        "headline": "1495 d.C. – Primer molino de papel establecido en Inglaterra",
-        "text": "<p>Se estableció el primer molino de papel en Inglaterra, marcando el inicio de la producción de papel en el país.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1549"
-      },
-      "text": {
-        "headline": "1549 d.C. – Los españoles quemaron la biblioteca maya de textos antiguos",
-        "text": "<p>La destrucción de la biblioteca maya por los españoles borró una gran cantidad de conocimiento antiguo.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1636"
-      },
-      "text": {
-        "headline": "1636 d.C. – La culpa de la peste se atribuyó a los trapos de lino y algodón importados por las fábricas de papel",
-        "text": "<p>Durante la peste, se culpó a los trapos de lino y algodón utilizados en la fabricación de papel por la propagación de la enfermedad.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1690"
-      },
-      "text": {
-        "headline": "1690 d.C. – Primer molino de papel establecido en Estados Unidos",
-        "text": "<p>El primer molino de papel en los Estados Unidos se estableció en 1690.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1705"
-      },
-      "text": {
-        "headline": "1705 d.C. – Primer periódico americano: Boston News Letter",
-        "text": "<p>El Boston News Letter fue el primer periódico publicado en América.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1798"
-      },
-      "text": {
-        "headline": "1798 d.C. – La máquina de papel fue creada por el inventor N.L. Robert",
-        "text": "<p>El inventor francés Nicolas-Louis Robert desarrolló la primera máquina para fabricar papel.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1804"
-      },
-      "text": {
-        "headline": "1804 d.C. – Primer libro impreso en papel hecho a máquina",
-        "text": "<p>El primer libro impreso en papel fabricado con una máquina se produjo en 1804.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1806"
-      },
-      "text": {
-        "headline": "1806 d.C. – Máquina Fourdrinier patentada",
-        "text": "<p>La máquina Fourdrinier, que mejoró el proceso de fabricación de papel, fue patentada en 1806.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1844"
-      },
-      "text": {
-        "headline": "1844 d.C. – El papel comenzó a hacerse a partir de madera molida",
-        "text": "<p>El uso de madera molida para la fabricación de papel comenzó en 1844.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1854"
-      },
-      "text": {
-        "headline": "1854 d.C. – El papel comenzó a hacerse a partir de fibras de celulosa extraídas de la madera con soda cáustica",
-        "text": "<p>Se desarrolló una técnica para fabricar papel utilizando fibras de celulosa extraídas de la madera con soda cáustica.</p>"
-      }
-    },
-    {
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": ""
-      },
-      "start_date": {
-        "year": "1863"
-      },
-      "text": {
-        "headline": "1863 d.C. – Primer periódico creado a partir de papel de 'madera molida'",
-        "text": "<p>El primer periódico hecho de papel de madera molida se produjo en 1863.</p>"
-      }
+        {
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Manuscript_de_paper_%28XIV-XV_segle%29.jpg",
+            "caption": "Manuscrito de papel en el siglo XIII",
+            "credit": "Wikimedia Commons"
+          },
+          "start_date": {
+            "year": "1100"
+          },
+          "text": {
+            "headline": "1100 e. c. – Se establece la primera fábrica de papel en Europa (España)",
+            "text": "<p>La primera fábrica de papel en Europa se estableció en España alrededor del año 1100 e. c., concretamente en la ciudad de Játiva (Xàtiva), bajo el dominio de Al-Ándalus. Este evento marcó un punto de inflexión en la producción de papel en el continente europeo. Los artesanos musulmanes llevaron consigo técnicas avanzadas de fabricación de papel, que incluyeron el uso de pulpa de trapos de lino y cáñamo. La ciudad de Játiva se convirtió en un importante centro de producción de papel, suministrando este material a varias regiones europeas. Este desarrollo contribuyó al crecimiento de la alfabetización y al florecimiento cultural durante la Edad Media en Europa, especialmente en la Península Ibérica. A medida que la tecnología de fabricación de papel se extendió por Europa, otros países comenzaron a establecer sus propias fábricas de papel, facilitando la propagación del conocimiento y la cultura escrita.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/History_of_paper#Medieval_Europe\" target=\"_blank\">Wikipedia</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2023/04/22/la-primera-biblia-gutenberg.jpeg",
+            "caption": "La Biblia de Gutenberg, uno de los primeros libros impresos en Europa",
+            "credit": "20 Minutos"
+          },
+          "start_date": {
+            "year": "1151"
+          },
+          "text": {
+            "headline": "1151 e. c. – Se produce papel a partir de molinos de pulpa en Europa",
+            "text": "<p>En 1151, se introdujeron molinos de pulpa en Europa, una innovación clave en la fabricación de papel que permitió producir papel de manera más eficiente y en mayores cantidades. Estos molinos, que usaban energía hidráulica para triturar trapos y otros materiales fibrosos, revolucionaron la industria del papel. La pulpa de trapos, mezclada con agua, era batida hasta obtener una consistencia adecuada para formar hojas de papel. Esta tecnología, difundida inicialmente en Italia, pronto se extendió a otras regiones de Europa, facilitando la producción de papel de alta calidad. Los molinos de pulpa permitieron la creación de papel más barato y accesible, lo que impulsó la producción de manuscritos y libros, y estableció las bases para la posterior revolución de la imprenta. Esta transformación tecnológica ayudó a reducir el costo del papel, incrementando su disponibilidad y fomentando la difusión del conocimiento escrito en toda Europa.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/Paper_mill#History\" target=\"_blank\">Wikipedia</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://www.brooklynmuseum.org/eascfa/dinner_party/images/heritage-floor/big/6.1.jpg",
+            "caption": "Imagen artística de la primera fábrica de papel en Francia",
+            "credit": "Brooklyn Museum"
+          },
+          "start_date": {
+            "year": "1190"
+          },
+          "text": {
+            "headline": "1190 e. c. – Primera fábrica de papel establecida en Francia",
+            "text": "<p>La primera fábrica de papel en Francia fue establecida en 1190 e. c. en la ciudad de Essonnes, cerca de París. La llegada del papel a Francia marcó un hito en el desarrollo cultural e intelectual del país. Los fabricantes franceses adoptaron y mejoraron las técnicas de producción aprendidas de los árabes y españoles, empleando trapos de lino y cáñamo para crear papel de alta calidad. La producción de papel en Francia fue impulsada por la creciente demanda de material escrito por parte de monasterios, universidades y la corte real. A medida que la industria del papel crecía, se establecieron más fábricas en otras regiones del país, facilitando la expansión del comercio y la comunicación escrita. La disponibilidad de papel contribuyó al auge de la literatura francesa y al intercambio de ideas durante la Edad Media, sentando las bases para el Renacimiento en Francia.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/topic/history-of-publishing\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Royal-castle-palace-krakow-krakow-unesco.jpg",
+            "caption": "El Castillo Real en Cracovia, Polonia",
+            "credit": "Wikimedia Commons"
+          },
+          "start_date": {
+            "year": "1276"
+          },
+          "text": {
+            "headline": "1276 e. c. – Cracovia, Polonia, establece su primera fábrica de papel",
+            "text": "<p>En 1276, se estableció la primera fábrica de papel en Cracovia, Polonia, como parte de un esfuerzo por expandir la producción de papel en Europa del Este. Esta fábrica fue una de las primeras en la región y jugó un papel crucial en la difusión de la tecnología de fabricación de papel en Europa Central. El papel producido en Cracovia se utilizó en una amplia variedad de aplicaciones, desde la escritura de documentos legales hasta la creación de manuscritos religiosos y literarios. La llegada del papel a Polonia facilitó la comunicación escrita y el intercambio de ideas, apoyando el crecimiento cultural e intelectual de la región. A lo largo de los siglos XIII y XIV, la tecnología de fabricación de papel se expandió a otros países de Europa del Este, estableciendo una red de producción que ayudó a satisfacer la creciente demanda de papel en toda Europa.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/History_of_paper#Medieval_Europe\" target=\"_blank\">Wikipedia</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://cdn.haciendavencaza.com/images/haciendavencaza-com/image/article/2059291/johannes-gutenberg.jpg",
+            "caption": "Retrato de Johannes Gutenberg",
+            "credit": "haciendavencaza.com"
+          },
+          "start_date": {
+            "year": "1290"
+          },
+          "text": {
+            "headline": "1290 e. c. – Fabricación de papel inicia en Italia (Bérgamo)",
+            "text": "<p>En 1290, la ciudad de Bérgamo, en Italia, se convirtió en un centro importante para la fabricación de papel. La industria del papel en Italia se expandió rápidamente, adoptando las técnicas avanzadas de fabricación de papel desarrolladas en España y Francia. Los artesanos italianos utilizaron molinos de pulpa para producir papel de alta calidad, lo que ayudó a satisfacer la creciente demanda de material escrito por parte de comerciantes, universidades y la Iglesia Católica. La expansión de la fabricación de papel en Italia también facilitó la producción de manuscritos iluminados y otros documentos importantes, apoyando el florecimiento del Renacimiento italiano. La disponibilidad de papel de calidad en Italia contribuyó al auge de la impresión en el siglo XV, cuando inventores como Johannes Gutenberg introdujeron la imprenta, revolucionando la producción y difusión de libros y conocimiento en toda Europa.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/topic/history-of-publishing\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cai_Lun_portrait.jpeg/800px-Cai_Lun_portrait.jpeg",
+            "caption": "Retrato de Cai Lun, inventor del papel moderno",
+            "credit": "Wikimedia Commons"
+          },
+          "start_date": {
+            "year": "1390"
+          },
+          "text": {
+            "headline": "1390 e. c. – Se establece la primera fábrica de papel en Alemania (Nuremberg)",
+            "text": "<p>En 1390, Alemania estableció su primera fábrica de papel en la ciudad de Nuremberg, convirtiéndose en un punto clave para la producción de papel en Europa Central. Este desarrollo fue una respuesta a la creciente demanda de papel en la región, impulsada por el auge de la alfabetización y la expansión del comercio. La fábrica de papel de Nuremberg adoptó técnicas avanzadas de fabricación, utilizando molinos de agua para triturar trapos y otros materiales fibrosos. La calidad del papel alemán pronto ganó reputación, y la producción de papel se extendió a otras ciudades alemanas, como Mainz y Augsburgo. La disponibilidad de papel de alta calidad en Alemania fue un factor clave que contribuyó al éxito de la imprenta de Johannes Gutenberg en el siglo XV, permitiendo la producción masiva de libros y la difusión del conocimiento durante el Renacimiento europeo.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://www.unilim.fr/unilim-oai-data/uploads/2023/02/15/paper-production-plant-china.jpg",
+            "caption": "Antigua planta de producción de papel en China",
+            "credit": "Unilim"
+          },
+          "start_date": {
+            "year": "1400"
+          },
+          "text": {
+            "headline": "1400 e. c. – Se expande la fabricación de papel en Inglaterra",
+            "text": "<p>La fabricación de papel en Inglaterra comenzó a expandirse a principios del siglo XV, con la creación de varias fábricas de papel en todo el país. Este desarrollo fue impulsado por la creciente demanda de papel para manuscritos y libros, así como para documentos legales y comerciales. Las fábricas inglesas adoptaron técnicas de fabricación de papel avanzadas de Europa continental, utilizando trapos de lino y cáñamo como materias primas principales. La calidad del papel inglés mejoró significativamente, y la industria del papel se convirtió en un componente vital de la economía inglesa. La disponibilidad de papel en Inglaterra fue un factor clave que facilitó la producción de libros impresos en el siglo XV, contribuyendo al auge del Renacimiento en el país y al florecimiento de la literatura y el conocimiento científico.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Painting_illustrating_a_paper_making_mill.jpg",
+            "caption": "Ilustración de una fábrica de papel en Inglaterra",
+            "credit": "Wikimedia Commons"
+          },
+          "start_date": {
+            "year": "1440"
+          },
+          "text": {
+            "headline": "1440 e. c. – Invención de la imprenta por Johannes Gutenberg",
+            "text": "<p>En 1440, Johannes Gutenberg, un inventor alemán, revolucionó la producción de libros con la invención de la imprenta de tipos móviles. Esta innovación permitió la producción masiva de libros y documentos impresos, acelerando la difusión del conocimiento y la alfabetización en toda Europa. La imprenta de Gutenberg utilizaba tipos móviles de metal que podían ser reordenados y reutilizados, facilitando la impresión rápida y eficiente de múltiples copias de un texto. La primera gran obra impresa por Gutenberg fue la Biblia de Gutenberg, una obra maestra de la tipografía que marcó el comienzo de la era de la impresión en Europa. La invención de la imprenta tuvo un impacto profundo en la cultura y la sociedad europeas, catalizando el Renacimiento, la Reforma Protestante y la Revolución Científica, y estableciendo el papel como el medio dominante para la transmisión del conocimiento escrito en todo el mundo.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/biography/Johannes-Gutenberg\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://cdn.britannica.com/88/151388-050-9B103356/Gutenberg-Bible.jpg",
+            "caption": "La Biblia de Gutenberg, uno de los primeros libros impresos",
+            "credit": "Encyclopædia Britannica"
+          },
+          "start_date": {
+            "year": "1490"
+          },
+          "text": {
+            "headline": "1490 e. c. – Se expande la producción de papel en Europa Occidental",
+            "text": "<p>A finales del siglo XV, la producción de papel se expandió rápidamente en Europa Occidental, estableciéndose numerosas fábricas de papel en países como Francia, Italia, Alemania, y los Países Bajos. Este crecimiento fue impulsado por la creciente demanda de papel para la impresión de libros y documentos tras la invención de la imprenta. Las fábricas de papel adoptaron técnicas avanzadas de fabricación, utilizando molinos de agua y pulpa de trapos para producir papel de alta calidad en grandes cantidades. La disponibilidad de papel barato y accesible fue un factor crucial que permitió la difusión masiva del conocimiento durante el Renacimiento y la Revolución Científica. La industria del papel se convirtió en una parte integral de la economía europea, facilitando el comercio, la comunicación y el intercambio cultural entre diferentes regiones del continente.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/History_of_paper#Modern_Europe\" target=\"_blank\">Wikipedia</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://www.cronistasoficiales.com/wp-content/uploads/2019/09/Papel-Fabricacion-Empresa-Artesano-Monasterio-de-El-Escorial-Lugar-Papel.jpg",
+            "caption": "Técnicas de fabricación de papel en el Monasterio de El Escorial",
+            "credit": "Cronistas Oficiales"
+          },
+          "start_date": {
+            "year": "1550"
+          },
+          "text": {
+            "headline": "1550 e. c. – Desarrollo de técnicas de fabricación de papel en Europa",
+            "text": "<p>En 1550, Europa experimentó un avance significativo en las técnicas de fabricación de papel, impulsado por la necesidad de producir papel más duradero y de alta calidad para satisfacer la creciente demanda de la industria editorial. Los artesanos europeos comenzaron a experimentar con diferentes materiales y procesos, como el uso de pegamentos y agentes blanqueadores, para mejorar la resistencia y el acabado del papel. La introducción de nuevas técnicas de fabricación permitió la producción de papel más uniforme y de calidad superior, adecuado para la impresión de libros y documentos importantes. Este desarrollo técnico fue crucial para el éxito continuo de la imprenta y la expansión del comercio de libros en Europa. Además, la mejora en la calidad del papel facilitó la preservación de documentos históricos y literarios, contribuyendo al legado cultural del continente.</p> <small><i>Fuente: <a href=\"https://en.wikipedia.org/wiki/History_of_paper#Modern_Europe\" target=\"_blank\">Wikipedia</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://thumbs.dreamstime.com/z/man-fabrication-paper-working-industry-factory-industrial-profession-occupations-concept-102424092.jpg",
+            "caption": "Fabricación de papel en una fábrica moderna",
+            "credit": "Dreamstime"
+          },
+          "start_date": {
+            "year": "1750"
+          },
+          "text": {
+            "headline": "1750 e. c. – La Revolución Industrial transforma la producción de papel",
+            "text": "<p>La Revolución Industrial en el siglo XVIII marcó un cambio fundamental en la producción de papel, con la introducción de maquinaria avanzada que permitía la producción en masa. Las fábricas de papel comenzaron a utilizar máquinas de vapor y otros dispositivos mecánicos para automatizar el proceso de fabricación, lo que resultó en una producción más rápida y eficiente. El uso de pasta de madera como materia prima sustituyó gradualmente a los trapos, reduciendo los costos de producción y haciendo el papel más accesible. La industrialización de la producción de papel permitió satisfacer la creciente demanda de material escrito en una era de comunicación y comercio en expansión. Esta transformación también facilitó la producción de periódicos y otros medios impresos, impulsando la difusión del conocimiento y la información en la sociedad moderna.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://www.brooklynmuseum.org/eascfa/dinner_party/images/heritage-floor/big/9.1.jpg",
+            "caption": "Fábrica de papel durante la Revolución Industrial",
+            "credit": "Brooklyn Museum"
+          },
+          "start_date": {
+            "year": "1844"
+          },
+          "text": {
+            "headline": "1844 e. c. – Friedrich Gottlob Keller inventa el papel de pulpa de madera",
+            "text": "<p>En 1844, el inventor alemán Friedrich Gottlob Keller desarrolló un proceso para fabricar papel utilizando pulpa de madera, una innovación que revolucionó la industria del papel. Hasta ese momento, el papel se producía principalmente a partir de trapos de lino y cáñamo, lo que limitaba la disponibilidad de materias primas. El proceso de Keller consistía en triturar la madera para obtener pulpa, que luego se utilizaba para producir papel. Esta innovación permitió la producción de papel en grandes cantidades y a menor costo, impulsando la expansión de la industria editorial y el acceso a material impreso en todo el mundo. La introducción del papel de pulpa de madera también tuvo un impacto significativo en la sostenibilidad de la producción de papel, ya que permitía el uso de un recurso renovable y abundante. A partir de este momento, la industria del papel experimentó un crecimiento sin precedentes, y el papel se convirtió en un elemento esencial de la vida moderna.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Fourdrinier_paper_machine.JPG/800px-Fourdrinier_paper_machine.JPG",
+            "caption": "Máquina de papel Fourdrinier, un invento clave en la fabricación moderna",
+            "credit": "Wikimedia Commons"
+          },
+          "start_date": {
+            "year": "1867"
+          },
+          "text": {
+            "headline": "1867 e. c. – El proceso Kraft revoluciona la fabricación de papel",
+            "text": "<p>En 1867, el proceso Kraft fue desarrollado por el químico alemán Carl F. Dahl, revolucionando la fabricación de papel al introducir un método más eficiente para producir pulpa de madera. El proceso Kraft, que utiliza una mezcla de hidróxido de sodio y sulfuro de sodio para descomponer la madera en pulpa, permitió la producción de papel más resistente y duradero. Este proceso también facilitó la recuperación de productos químicos, haciéndolo más económico y respetuoso con el medio ambiente. La adopción del proceso Kraft transformó la industria del papel, permitiendo la producción de papel en grandes cantidades y a menor costo, satisfaciendo la creciente demanda de material escrito en una era de comunicación global. La innovación de Dahl tuvo un impacto duradero en la industria del papel, y el proceso Kraft sigue siendo ampliamente utilizado en la actualidad.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://cdn.pixabay.com/photo/2020/08/28/20/27/factory-5522743_960_720.jpg",
+            "caption": "Fábrica moderna de papel en operación",
+            "credit": "Pixabay"
+          },
+          "start_date": {
+            "year": "1900"
+          },
+          "text": {
+            "headline": "1900 e. c. – Expansión global de la industria del papel",
+            "text": "<p>A principios del siglo XX, la industria del papel experimentó una expansión global, con la creación de fábricas de papel en todos los continentes. Este crecimiento fue impulsado por la creciente demanda de papel para periódicos, libros, embalajes y otros productos. La innovación tecnológica y la industrialización permitieron la producción de papel a gran escala, satisfaciendo las necesidades de una sociedad en rápida evolución. La industria del papel se convirtió en un componente vital de la economía global, con países como Estados Unidos, Canadá, Suecia y Finlandia emergiendo como líderes en la producción de papel. La expansión de la industria también planteó desafíos ambientales, lo que llevó al desarrollo de prácticas más sostenibles y al reciclaje de papel. A lo largo del siglo XX, el papel siguió siendo un recurso esencial para la comunicación, el comercio y la educación en todo el mundo.</p> <small><i>Fuente: <a href=\"https://www.britannica.com/technology/papermaking\" target=\"_blank\">Britannica</a></i></small></p>"
+          }
+        },
+        {
+          "media": {
+            "url": "https://www.researchgate.net/profile/Oliver-Clemens/publication/339129980/figure/fig6/AS:863589581393920@1581338189788/Diagram-of-the-paper-manufacturing-process-used-in-modern-paper-mills.png",
+            "caption": "Diagrama del proceso moderno de fabricación de papel",
+            "credit": "ResearchGate"
+          },
+          "start_date": {
+            "year": "2000"
+          },
+          "text": {
+            "headline": "2000 e. c. – Innovaciones modernas en la fabricación de papel",
+            "text": "<p>En el siglo XXI, la industria del papel ha experimentado una serie de innovaciones tecnológicas que han mejorado la eficiencia y sostenibilidad de la producción. Estas innovaciones incluyen el uso de procesos químicos avanzados, la automatización de fábricas y la implementación de prácticas respetuosas con el medio ambiente, como el reciclaje de papel y la gestión sostenible de bosques. La demanda de papel ha evolucionado con la digitalización de la información, pero el papel sigue siendo un recurso esencial para el embalaje, la impresión y otras aplicaciones. Las empresas de papel han adoptado nuevas tecnologías para reducir su impacto ambiental, como el uso de energías renovables y la minimización de desechos. A medida que el mundo avanza hacia un futuro más sostenible, la industria del papel continúa adaptándose y reinventándose para satisfacer las necesidades cambiantes de la sociedad moderna.</p> <small><i>Fuente: <a href=\"https://www.researchgate.net/publication/339129980_The_Evolution_of_Papermaking_from_Manual_Manufacturing_to_Advanced_Sustainable_Production_Techniques\" target=\"_blank\">ResearchGate</a></i></small></p>"
+          }
+        }
+      ]
     }
-  ]
-}
+    
