@@ -13,9 +13,9 @@
     "events": [
         {
             "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ebers7766.jpg",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ebers7766.jpg/200px-Ebers7766.jpg",
                 "caption": "Papiro de Ebers, un antiguo texto médico egipcio.",
-                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Ebers7766.jpg'>Wikimedia Commons</a>"
+                "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ebers7766.jpg/200px-Ebers7766.jpg'>Wikimedia Commons</a>"
             },
             "start_date": {
                 "year": "-3000"
@@ -28,7 +28,7 @@
         {
             "media": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
-                "caption": "Cai Lun, el inventor del papel.",
+                "caption": "Cai Lun, inventor del papel.",
                 "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
             },
             "start_date": {
@@ -36,7 +36,7 @@
             },
             "text": {
                 "headline": "Invención del Papel por Cai Lun",
-                "text": "<p>En el año 105 d.C., Cai Lun, un oficial de la corte china durante la dinastía Han, inventó el papel moderno utilizando una mezcla de corteza de morera, cáñamo, trapos de tela y redes de pesca, moliendo y mezclando los materiales con agua y secándolos sobre un marco de bambú. Este invento revolucionó la manera en que la información se registraba y compartía, marcando el comienzo de una nueva era en la comunicación escrita.</p>"
+                "text": "<p>En el año 105 d.C., Cai Lun, un oficial de la corte china durante la dinastía Han, inventó el papel moderno utilizando una mezcla de corteza de morera, cáñamo, trapos de tela y redes de pesca. Molió y mezcló estos materiales con agua y los secó sobre un marco de bambú. Este invento revolucionó la forma en que se registraba y compartía la información, marcando el inicio de una nueva era en la comunicación escrita.</p>"
             }
         },
         {
@@ -50,13 +50,13 @@
             },
             "text": {
                 "headline": "Introducción del Papel en Japón",
-                "text": "<p>La técnica de fabricación de papel llegó a Japón en el siglo VII, donde se adoptaron métodos locales que incluían materiales como el bambú, el arroz y la corteza del árbol de kozo. La adaptación japonesa refinó la calidad del papel, conocido como washi, que se utilizó en la escritura, la pintura y más tarde en la fabricación de objetos como sombrillas y pantallas.</p>"
+                "text": "<p>En el siglo VII, la técnica de fabricación de papel llegó a Japón, donde se adaptaron métodos locales que incluían materiales como el bambú, el arroz y la corteza del árbol de kozo. La adaptación japonesa perfeccionó la calidad del papel, conocido como washi, que se utilizó para la escritura, la pintura y, más tarde, en la fabricación de objetos como sombrillas y pantallas.</p>"
             }
         },
         {
             "media": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Battle_of_Talas_%28AD_751%29.PNG",
-                "caption": "Mapa de la batalla de Talas en 751 d.C.",
+                "caption": "Mapa de la batalla del río Talas en 751 d.C.",
                 "credit": "<a href='https://commons.wikimedia.org/wiki/File:Battle_of_Talas_(AD_751).PNG'>Wikimedia Commons</a>"
             },
             "start_date": {
@@ -64,7 +64,7 @@
             },
             "text": {
                 "headline": "Batalla del Río Talas",
-                "text": "<p>La batalla del río Talas en el año 751 d.C. marcó un punto de inflexión en la historia del papel. Tras esta batalla entre el Imperio Chino y las fuerzas islámicas, prisioneros chinos enseñaron el arte de hacer papel a los árabes, quienes rápidamente adoptaron la tecnología, estableciendo la primera fábrica de papel en Bagdad hacia el año 794. Este evento facilitó la difusión de la técnica de fabricación de papel a través del mundo islámico.</p>"
+                "text": "<p>La batalla del río Talas en 751 d.C. marcó un punto de inflexión en la historia del papel. Tras esta batalla entre el Imperio Chino y las fuerzas islámicas, prisioneros chinos enseñaron el arte de hacer papel a los árabes, quienes adoptaron rápidamente la tecnología y establecieron la primera fábrica de papel en Bagdad alrededor del año 794. Este evento facilitó la difusión de la técnica de fabricación de papel a través del mundo islámico.</p>"
             }
         },
         {
@@ -78,7 +78,7 @@
             },
             "text": {
                 "headline": "Primera Fábrica de Papel en Europa",
-                "text": "<p>La primera fábrica de papel en Europa se estableció en Játiva, España, alrededor del año 1056. Conocido como 'papel de Játiva', este material era notablemente diferente del papiro o pergamino que se usaba en Europa anteriormente. La técnica fue introducida por los musulmanes durante la dominación árabe de la península ibérica.</p>"
+                "text": "<p>La primera fábrica de papel en Europa se estableció en Játiva, España, alrededor del año 1056. Conocido como 'papel de Játiva', este material era notablemente diferente del papiro o pergamino que se usaba anteriormente. La técnica fue introducida por los musulmanes durante la dominación árabe de la península ibérica.</p>"
             }
         },
         {
@@ -92,7 +92,7 @@
             },
             "text": {
                 "headline": "La Imprenta de Gutenberg",
-                "text": "<p>En 1450, Johannes Gutenberg perfeccionó la imprenta de tipos móviles en Europa, revolucionando la producción de libros. La invención de Gutenberg incrementó drásticamente la demanda de papel, ya que los libros y documentos podían imprimirse de manera rápida y en grandes cantidades. Esto aceleró la difusión del conocimiento y ayudó al Renacimiento europeo.</p>"
+                "text": "<p>En 1450, Johannes Gutenberg perfeccionó la imprenta de tipos móviles en Europa, revolucionando la producción de libros. La invención de Gutenberg incrementó drásticamente la demanda de papel, ya que los libros y documentos podían imprimirse de manera rápida y en grandes cantidades. Esto aceleró la difusión del conocimiento y contribuyó al Renacimiento europeo.</p>"
             }
         },
         {
@@ -134,21 +134,7 @@
             },
             "text": {
                 "headline": "Descubrimiento de la Celulosa",
-                "text": "<p>La celulosa fue identificada por el químico francés Anselme Payen en 1838 como el componente principal de las paredes celulares de las plantas. Esta sustancia es un polisacárido que constituye el elemento básico del papel moderno. Su descubrimiento fue crucial para entender y mejorar la producción del papel, permitiendo el desarrollo de nuevos métodos para fabricar papel a partir de la pulpa de madera.</p>"
-            }
-        },
-        {
-            "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Industriepapier.jpg",
-                "caption": "Producción de papel en una fábrica moderna.",
-                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Industriepapier.jpg'>Wikimedia Commons</a>"
-            },
-            "start_date": {
-                "year": "1844"
-            },
-            "text": {
-                "headline": "Producción de Papel a partir de Pulpa de Madera",
-                "text": "<p>Friedrich Gottlob Keller, un inventor alemán, desarrolló en 1844 el primer método para producir papel a partir de pulpa de madera. Este avance tecnológico permitió la fabricación de papel de manera más económica y en grandes volúmenes, reduciendo la dependencia de trapos reciclados y abriendo el camino para el uso extensivo del papel en la industria editorial.</p>"
+                "text": "<p>La celulosa fue identificada por el químico francés Anselme Payen en 1838 como el componente principal de las paredes celulares de las plantas. Esta sustancia, un polisacárido, es el elemento básico del papel moderno. Su descubrimiento fue crucial para entender y mejorar la producción de papel, permitiendo el desarrollo de nuevos métodos para fabricar papel a partir de la pulpa de madera.</p>"
             }
         },
         {
@@ -168,7 +154,7 @@
         {
             "media": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Handmade_paper_in_India.JPG",
-                "caption": "Papel artesanal hecho a mano en la India.",
+                "caption": "Papel artesanal hecho a mano en India.",
                 "credit": "<a href='https://commons.wikimedia.org/wiki/File:Handmade_paper_in_India.JPG'>Wikimedia Commons</a>"
             },
             "start_date": {
@@ -176,7 +162,7 @@
             },
             "text": {
                 "headline": "El Renacimiento del Papel Artesanal",
-                "text": "<p>En el siglo XXI, el papel hecho a mano ha experimentado un renacimiento como medio de expresión artística. A pesar del auge de las tecnologías digitales, el papel artesanal sigue siendo valorado por su textura única y su capacidad para transmitir emociones en formas que las pantallas digitales no pueden igualar, manteniendo viva una tradición centenaria.</p>"
+                "text": "<p>En el siglo XXI, el papel hecho a mano ha experimentado un renacimiento como medio de expresión artística. A pesar del auge de las tecnologías digitales, el papel artesanal sigue siendo valorado por su textura única y su capacidad para transmitir emociones de una manera que las pantallas digitales no pueden igualar, manteniendo viva una tradición centenaria.</p>"
             }
         }
     ]
