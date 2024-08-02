@@ -13,6 +13,20 @@
     "events": [
         {
             "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ebers7766.jpg",
+                "caption": "Papiro de Ebers, un antiguo texto médico egipcio.",
+                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Ebers7766.jpg'>Wikimedia Commons</a>"
+            },
+            "start_date": {
+                "year": "-3000"
+            },
+            "text": {
+                "headline": "Uso del Papiro en Egipto",
+                "text": "<p>En el antiguo Egipto, alrededor del año 3000 a.C., se comenzó a utilizar el papiro como uno de los primeros soportes de escritura. Fabricado a partir de la planta de papiro, que crece en el delta del Nilo, el proceso de fabricación implicaba cortar las fibras del tallo, entrelazarlas y prensarlas para formar una superficie adecuada para escribir. Este material fue esencial en la administración y la vida cultural del Egipto faraónico, sentando las bases para el desarrollo de futuros medios de escritura en el mundo occidental.</p>"
+            }
+        },
+        {
+            "media": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
                 "caption": "Cai Lun, el inventor del papel.",
                 "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
@@ -107,6 +121,20 @@
             "text": {
                 "headline": "Invención de la Máquina de Papel",
                 "text": "<p>En 1798, el inventor francés Nicolas-Louis Robert creó la primera máquina para fabricar papel de manera continua. Posteriormente, los hermanos Fourdrinier perfeccionaron esta máquina en Inglaterra, permitiendo la producción masiva y eficiente de papel en hojas continuas. Este avance tecnológico transformó la industria papelera, haciéndola más económica y accesible.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cellulose_Structure.svg",
+                "caption": "Estructura de la celulosa.",
+                "credit": "<a href='https://commons.wikimedia.org/wiki/File:Cellulose_Structure.svg'>Wikimedia Commons</a>"
+            },
+            "start_date": {
+                "year": "1838"
+            },
+            "text": {
+                "headline": "Descubrimiento de la Celulosa",
+                "text": "<p>La celulosa fue identificada por el químico francés Anselme Payen en 1838 como el componente principal de las paredes celulares de las plantas. Esta sustancia es un polisacárido que constituye el elemento básico del papel moderno. Su descubrimiento fue crucial para entender y mejorar la producción del papel, permitiendo el desarrollo de nuevos métodos para fabricar papel a partir de la pulpa de madera.</p>"
             }
         },
         {
