@@ -1,227 +1,101 @@
 {
     "title": {
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
-        "caption": "Cai Lun, inventor del papel.",
-        "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancient_papyrus.jpg/1024px-Ancient_papyrus.jpg",
+        "caption": "Papiro antiguo",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "La Historia del Papel",
-        "text": "<p>El papel, uno de los inventos más importantes de la humanidad, ha transformado la comunicación y la difusión del conocimiento. Desde sus orígenes en la antigua China hasta su producción masiva en la era moderna, esta línea de tiempo explora la evolución del papel y su impacto global.</p>"
+        "headline": "Historia del papel",
+        "text": "Un recorrido por el desarrollo del papel a lo largo de los siglos."
       }
     },
     "events": [
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ebers7766.jpg/200px-Ebers7766.jpg",
-          "caption": "Papiro de Ebers, un antiguo texto médico egipcio.",
-          "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ebers7766.jpg/200px-Ebers7766.jpg'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "-3000"
+          "year": -3000,
+          "month": 1,
+          "day": 1
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancient_papyrus.jpg/1024px-Ancient_papyrus.jpg",
+          "caption": "Papiro egipcio",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "Uso del Papiro en Egipto",
-          "text": "<p>En el antiguo Egipto, alrededor del año 3000 a.C., se comenzó a utilizar el papiro como uno de los primeros soportes de escritura. Fabricado a partir de la planta de papiro, que crece en el delta del Nilo, el proceso de fabricación implicaba cortar las fibras del tallo, entrelazarlas y prensarlas para formar una superficie adecuada para escribir. Este material fue esencial en la administración y la vida cultural del Egipto faraónico, sentando las bases para el desarrollo de futuros medios de escritura en el mundo occidental.</p>"
+          "headline": "Papiro en Egipto",
+          "text": "El papiro, fabricado a partir de la planta del mismo nombre, fue uno de los primeros materiales utilizados para escribir en el Antiguo Egipto."
         }
       },
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg",
-          "caption": "Cai Lun, el inventor del papel.",
-          "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/220px-Cai-lun.jpg'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "105"
+          "year": 105
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cai_Lun.jpg/1024px-Cai_Lun.jpg",
+          "caption": "Cai Lun, inventor del papel",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "Invención del Papel por Cai Lun",
-          "text": "<p>En el año 105 d.C., Cai Lun, un oficial de la corte china durante la dinastía Han, inventó el papel moderno utilizando una mezcla de corteza de morera, cáñamo, trapos de tela y redes de pesca, moliendo y mezclando los materiales con agua y secándolos sobre un marco de bambú. Este invento revolucionó la manera en que la información se registraba y compartía, marcando el comienzo de una nueva era en la comunicación escrita.</p>"
+          "headline": "Invención del papel en China",
+          "text": "El papel tal como lo conocemos hoy en día fue inventado en China por Cai Lun, un funcionario de la corte imperial, quien desarrolló un nuevo proceso de fabricación utilizando fibras vegetales."
         }
       },
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Making_Paper.gif",
-          "caption": "Proceso antiguo de fabricación de papel en China.",
-          "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/5/5b/Making_Paper.gif'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "610"
+          "year": 751
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Battle_of_Talas.jpg/1024px-Battle_of_Talas.jpg",
+          "caption": "Batalla de Talas",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "Introducción del Papel en Japón",
-          "text": "<p>La técnica de fabricación de papel llegó a Japón en el siglo VII, donde se adoptaron métodos locales que incluían materiales como el bambú, el arroz y la corteza del árbol de kozo. La adaptación japonesa refinó la calidad del papel, conocido como washi, que se utilizó en la escritura, la pintura y más tarde en la fabricación de objetos como sombrillas y pantallas.</p>"
+          "headline": "Difusión del papel a Occidente",
+          "text": "La técnica de fabricación del papel se extendió a Occidente después de la Batalla de Talas, donde los chinos capturaron a prisioneros que conocían el proceso y les enseñaron a los árabes."
         }
       },
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Battle_of_Talas_%28AD_751%29.PNG",
-          "caption": "Mapa de la batalla de Talas en 751 d.C.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Battle_of_Talas_(AD_751).PNG'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "751"
+          "year": 1450
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Gutenberg_Bible.jpg/1024px-Gutenberg_Bible.jpg",
+          "caption": "Biblia de Gutenberg",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "Batalla del Río Talas",
-          "text": "<p>La batalla del río Talas en el año 751 d.C. marcó un punto de inflexión en la historia del papel. Tras esta batalla entre el Imperio Chino y las fuerzas islámicas, prisioneros chinos enseñaron el arte de hacer papel a los árabes, quienes rápidamente adoptaron la tecnología, estableciendo la primera fábrica de papel en Bagdad hacia el año 794. Este evento facilitó la difusión de la técnica de fabricación de papel a través del mundo islámico.</p>"
+          "headline": "Imprenta y papel en Europa",
+          "text": "La invención de la imprenta por Gutenberg en Europa impulsó la demanda de papel, lo que llevó a la expansión de la industria papelera en el continente."
         }
       },
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Xativa_castillo.JPG",
-          "caption": "Castillo de Játiva, España, cerca del lugar del primer molino de papel europeo.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Xativa_castillo.JPG'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "1056"
+          "year": 1798
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fourdrinier_machine.jpg/1024px-Fourdrinier_machine.jpg",
+          "caption": "Máquina de Fourdrinier",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "Primera Fábrica de Papel en Europa",
-          "text": "<p>La primera fábrica de papel en Europa se estableció en Játiva, España, alrededor del año 1056. Conocido como 'papel de Játiva', este material era notablemente diferente del papiro o pergamino que se usaba en Europa anteriormente. La técnica fue introducida por los musulmanes durante la dominación árabe de la península ibérica.</p>"
+          "headline": "Mecanización de la producción de papel",
+          "text": "La invención de la máquina de Fourdrinier permitió la producción mecanizada de papel, lo que aumentó significativamente la oferta y abaratamiento del producto."
         }
       },
       {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Type_metal_punch_and_matrix.JPG",
-          "caption": "Tipos móviles de metal utilizados por Gutenberg.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Type_metal_punch_and_matrix.JPG'>Wikimedia Commons</a>"
-        },
         "start_date": {
-          "year": "1450"
+          "year": 1940
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Papermaking_machine.jpg/1024px-Papermaking_machine.jpg",
+          "caption": "Máquina de fabricación de papel",
+          "credit": "Wikimedia Commons"
         },
         "text": {
-          "headline": "La Imprenta de Gutenberg",
-          "text": "<p>En 1450, Johannes Gutenberg perfeccionó la imprenta de tipos móviles en Europa, revolucionando la producción de libros. La invención de Gutenberg incrementó drásticamente la demanda de papel, ya que los libros y documentos podían imprimirse de manera rápida y en grandes cantidades. Esto aceleró la difusión del conocimiento y ayudó al Renacimiento europeo.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Portsmouth_Mill.JPG",
-          "caption": "Molino de papel en Portsmouth, New Hampshire, Estados Unidos.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Portsmouth_Mill.JPG'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1690"
-        },
-        "text": {
-          "headline": "Primer Molino de Papel en América",
-          "text": "<p>El primer molino de papel en América del Norte fue establecido en 1690 por William Rittenhouse en Filadelfia, Pensilvania. Este molino utilizó trapos reciclados como materia prima para fabricar papel, sentando las bases para el desarrollo de la industria papelera en el Nuevo Mundo.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Howe_roller.png",
-          "caption": "Máquina Fourdrinier de fabricación de papel.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Howe_roller.png'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1798"
-        },
-        "text": {
-          "headline": "Invención de la Máquina de Papel",
-          "text": "<p>En 1798, el inventor francés Nicolas-Louis Robert creó la primera máquina para fabricar papel de manera continua. Posteriormente, los hermanos Fourdrinier perfeccionaron esta máquina en Inglaterra, permitiendo la producción masiva y eficiente de papel en hojas continuas. Este avance tecnológico transformó la industria papelera, haciéndola más económica y accesible.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cellulose_Structure.svg",
-          "caption": "Estructura de la celulosa.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Cellulose_Structure.svg'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1838"
-        },
-        "text": {
-          "headline": "Descubrimiento de la Celulosa",
-          "text": "<p>La celulosa fue identificada por el químico francés Anselme Payen en 1838 como el componente principal de las paredes celulares de las plantas. Este polisacárido es el componente esencial del papel moderno. Su descubrimiento permitió una comprensión más profunda del proceso de fabricación del papel y facilitó el desarrollo de métodos más eficientes para producirlo a partir de pulpa de madera.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Industriepapier.jpg",
-          "caption": "Producción de papel en una fábrica moderna.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Industriepapier.jpg'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1844"
-        },
-        "text": {
-          "headline": "Producción de Papel a partir de Pulpa de Madera",
-          "text": "<p>Friedrich Gottlob Keller, un inventor alemán, desarrolló en 1844 el primer método para producir papel a partir de pulpa de madera. Este avance permitió una producción más económica y en grandes volúmenes, reduciendo la dependencia de trapos reciclados y abriendo el camino para el uso extensivo del papel en la industria editorial.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Waste_paper.jpg",
-          "caption": "Papel reciclado listo para su reutilización.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Waste_paper.jpg'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1867"
-        },
-        "text": {
-          "headline": "El Papel Reciclado",
-          "text": "<p>En 1867, la industria papelera comenzó a utilizar papel reciclado a gran escala. Este enfoque ecológico no solo ayudó a reducir el desperdicio de recursos naturales, sino que también promovió la sostenibilidad en la producción de papel, estableciendo un modelo que continúa siendo importante en la actualidad.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Handmade_paper_in_India.JPG",
-          "caption": "Papel artesanal hecho a mano en la India.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Handmade_paper_in_India.JPG'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "2000"
-        },
-        "text": {
-          "headline": "El Renacimiento del Papel Artesanal",
-          "text": "<p>En el siglo XXI, el papel hecho a mano ha experimentado un renacimiento como medio de expresión artística. A pesar del auge de las tecnologías digitales, el papel artesanal sigue siendo valorado por su textura única y su capacidad para transmitir emociones en formas que las pantallas digitales no pueden igualar, manteniendo viva una tradición centenaria.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pulp_and_paper_making_in_China%2C_17th_century.jpg/1280px-Pulp_and_paper_making_in_China%2C_17th_century.jpg",
-          "caption": "Fabricación de pulpa de papel en China, siglo XVII.",
-          "credit": "<a href='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pulp_and_paper_making_in_China%2C_17th_century.jpg/1280px-Pulp_and_paper_making_in_China%2C_17th_century.jpg'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "display_date": "Siglo XVII",
-          "year": "1601"
-        },
-        "text": {
-          "headline": "Avances en la Fabricación de Pulpa en China",
-          "text": "<p>Durante el siglo XVII, la técnica de fabricación de pulpa de papel en China evolucionó con la introducción de nuevas herramientas y métodos. Este periodo vio la mejora en la calidad de la pulpa y la implementación de técnicas más avanzadas para la producción de papel, contribuyendo al desarrollo de la industria papelera en Asia y más allá.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Black_and_white_paper_making.JPG",
-          "caption": "Proceso de fabricación de papel negro y blanco.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Black_and_white_paper_making.JPG'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1900"
-        },
-        "text": {
-          "headline": "Innovaciones en el Proceso de Fabricación",
-          "text": "<p>A lo largo del siglo XX, la industria papelera experimentó diversas innovaciones en el proceso de fabricación, incluyendo el desarrollo de papeles especiales y el uso de nuevas tecnologías para mejorar la eficiencia y la calidad del papel. Estos avances permitieron una mayor variedad en los tipos de papel y sus aplicaciones.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Uruguay_Paper_Industry.JPG",
-          "caption": "Fábrica de papel en Uruguay.",
-          "credit": "<a href='https://commons.wikimedia.org/wiki/File:Uruguay_Paper_Industry.JPG'>Wikimedia Commons</a>"
-        },
-        "start_date": {
-          "year": "1948"
-        },
-        "text": {
-          "headline": "Inicio de la Industria Papelera en Uruguay",
-          "text": "<p>En 1948, se estableció la primera fábrica de papel en Uruguay, la Fábrica de Papel del Uruguay (FAPUR), en Fray Bentos. Esta planta marcó el inicio de la industria papelera en el país, contribuyendo al desarrollo económico y a la creación de empleo. La FAPUR se ha convertido en un importante centro de producción de papel en América del Sur, exportando productos a varios países.</p>"
+          "headline": "Papel de fibras recicladas",
+          "text": "La creciente preocupación por el medio ambiente impulsó el desarrollo de procesos de fabricación de papel a partir de fibras recicladas, reduciendo el impacto ambiental de la industria papelera."
         }
       }
     ]
   }
-  
